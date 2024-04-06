@@ -5,6 +5,7 @@ using UnityEngine;
 public class Monkenemy : MonoBehaviour
 {
     [SerializeField] private GameObject possibleInteractionIndicator;
+    [SerializeField] public Sprite IlluSprite = null;
 
     public void OpenIndicator()
     {

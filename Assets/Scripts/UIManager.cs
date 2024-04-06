@@ -5,20 +5,21 @@ using UnityEngine;
 
 public class UIManager : Singleton<UIManager>
 {
-    [SerializeField] private GameObject interactionPanel;
+    [SerializeField] private InteractionPanel interactionPanel = null;
 
     private void Start()
     {
         HideInteractionPanel();
     }
 
-    public void ShowInteraction(Monkenemy monkenemy)
+    public void ShowInteraction(Monkenemy monkenemy, InteractionParameters interactionParameters)
     {
-        interactionPanel.SetActive(true);
+        interactionPanel.Generate(monkenemy, interactionParameters);
+        interactionPanel.gameObject.SetActive(true);
     }
 
     public void HideInteractionPanel()
     {
-        interactionPanel.SetActive(false);
+        interactionPanel.gameObject.SetActive(false);
     }
 }
