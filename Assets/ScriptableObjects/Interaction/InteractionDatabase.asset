@@ -21,3 +21,12 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 50c10aa7d8cd01140953e25fe61b5765, type: 2}
   - {fileID: 11400000, guid: 8fdfc53fa84847547b0e747b6d530310, type: 2}
   - {fileID: 11400000, guid: e789890ba1ae0e14796b392cb6ae1c70, type: 2}
+  _interactionResultData:
+  - Result: 0
+    Data: {fileID: 11400000, guid: 1f50ad14228b3fe4fbc64810f2bf072e, type: 2}
+  - Result: 1
+    Data: {fileID: 11400000, guid: 2791c624c276cec4bb9ddb77e0679a04, type: 2}
+  - Result: 2
+    Data: {fileID: 11400000, guid: c2b574cb016c07f41bca61692270270e, type: 2}
+  - Result: 3
+    Data: {fileID: 11400000, guid: b0a7487c547458a47b85263e8bd34756, type: 2}
