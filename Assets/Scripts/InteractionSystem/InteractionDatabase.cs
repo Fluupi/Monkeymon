@@ -17,7 +17,7 @@ public class InteractionDatabase : ScriptableObject
         return _parameters[parameter]; 
     }
 
-    private InteractionResultData GetResultData(InteractionResult parameter)
+    public InteractionResultData GetResultData(InteractionResult parameter)
     {
         foreach(TupleResultData resultData in _interactionResultData)
         {
@@ -27,7 +27,7 @@ public class InteractionDatabase : ScriptableObject
         return null;
     }
 
-    private InteractionResult ComputeInteraction(Vocalization vocalization, InteractionAnswer answer)
+    public InteractionResult ComputeInteraction(Vocalization vocalization, InteractionAnswer answer)
     {
         if (answer == InteractionAnswer.RunAway)
         {
@@ -47,11 +47,6 @@ public class InteractionDatabase : ScriptableObject
         }
         else
             return InteractionResult.Fight;
-    }
-
-    public InteractionResultData GetResultData(Vocalization vocalization, InteractionAnswer answer)
-    {
-        return GetResultData(ComputeInteraction(vocalization, answer));
     }
 }
 

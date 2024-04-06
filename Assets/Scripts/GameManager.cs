@@ -25,6 +25,27 @@ public class GameManager : Singleton<GameManager>
 
     public InteractionResultData GetResultData(Vocalization vocalization, InteractionAnswer answer)
     {
-        return interactionDatabase.GetResultData(vocalization, answer);
+        InteractionResult result = interactionDatabase.ComputeInteraction(vocalization, answer);
+
+        switch(result)
+        {
+            case InteractionResult.Play:
+                //+2;
+                break;
+            case InteractionResult.Delouse:
+                //+1;
+                break;
+            case InteractionResult.Exchange:
+                //+1?;
+                break;
+            case InteractionResult.RunAway:
+                //-1;
+                break;
+            case InteractionResult.Fight:
+                //-2;
+                break;
+        }
+
+        return interactionDatabase.GetResultData(result);
     }
 }
