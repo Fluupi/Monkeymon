@@ -12,7 +12,7 @@ public class GameManager : Singleton<GameManager>
     private int _interaction = 0;
     private int _banana = 3;
 
-    public int Banana { get; }
+    public int Banana { get => _banana; }
 
     public void StartInteraction(Monkenemy monkenemy)
     {
