@@ -46,7 +46,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactionDatabase: {fileID: 11400000, guid: a80d847c42ee52d48a142576c1cde152, type: 2}
   playerMovement: {fileID: 0}
-  uiManager: {fileID: 0}
+  uiManager: {fileID: 2246342527309158798}
   BananaGain: 2
   BananaLoss: 2
 --- !u!1 &3514592314211375929
