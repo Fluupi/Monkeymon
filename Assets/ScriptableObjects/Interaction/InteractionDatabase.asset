@@ -30,3 +30,5 @@ MonoBehaviour:
     Data: {fileID: 11400000, guid: c2b574cb016c07f41bca61692270270e, type: 2}
   - Result: 3
     Data: {fileID: 11400000, guid: b0a7487c547458a47b85263e8bd34756, type: 2}
+  - Result: 4
+    Data: {fileID: 11400000, guid: fccb9f5a71024624da9c18f8534d0894, type: 2}

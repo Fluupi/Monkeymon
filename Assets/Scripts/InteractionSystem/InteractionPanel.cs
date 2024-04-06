@@ -9,6 +9,7 @@ public class InteractionPanel : MonoBehaviour
     [SerializeField] private Image _enemyIllu;
     [SerializeField] private Image _playerIllu;
     [SerializeField] private Image _soundVisual;
+    [SerializeField] private Image _resultIllu;
 
     [SerializeField] private Button _playButton;
     [SerializeField] private Button _delousingButton;
@@ -40,21 +41,29 @@ public class InteractionPanel : MonoBehaviour
 
     public void OnPlayPressed()
     {
-        GameManager.Instance.EndInteraction();
+        PlayAnswer(InteractionAnswer.Play);
     }
 
     public void OnDelousingPressed()
     {
-        GameManager.Instance.EndInteraction();
+        PlayAnswer(InteractionAnswer.Delouse);
     }
 
     public void OnExchangePressed()
     {
-        GameManager.Instance.EndInteraction();
+        PlayAnswer(InteractionAnswer.FruitOffer);
     }
     
     public void OnRunAwayPressed()
     {
-        GameManager.Instance.EndInteraction();
+        PlayAnswer(InteractionAnswer.RunAway);
+    }
+
+    public void PlayAnswer(InteractionAnswer answer)
+    {
+        var data = GameManager.Instance.GetResultData(_interactionParameters.Vocalization, answer);
+
+        _audioSource.PlayOneShot(data.Sound);
+        _resultIllu.sprite = data.Illustration;
     }
 }

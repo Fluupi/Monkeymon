@@ -8,6 +8,7 @@ public class Vocalization : ScriptableObject
     public AudioClip Sound;
     public VocalizationLength Length;
     public VocalizationTessiture Tessiture;
+    public InteractionAnswer AwaitedAnswer;
 }
 
 public enum VocalizationLength

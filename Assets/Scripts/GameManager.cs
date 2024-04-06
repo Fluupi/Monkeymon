@@ -12,7 +12,7 @@ public class GameManager : Singleton<GameManager>
 
     public void StartInteraction(Monkenemy monkenemy)
     {
-        uiManager.ShowInteraction(monkenemy, interactionDatabase.GetParameters(_interaction));;
+        uiManager.ShowInteraction(monkenemy, interactionDatabase.GetParameters(_interaction));
         playerMovement.Freeze();
     }
 
@@ -23,5 +23,8 @@ public class GameManager : Singleton<GameManager>
         playerMovement.UnFreeze();
     }
 
-    
+    public InteractionResultData GetResultData(Vocalization vocalization, InteractionAnswer answer)
+    {
+        return interactionDatabase.GetResultData(vocalization, answer);
+    }
 }

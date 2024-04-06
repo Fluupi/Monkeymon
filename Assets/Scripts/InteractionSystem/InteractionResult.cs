@@ -7,5 +7,6 @@ public enum InteractionResult
     Play,
     Exchange,
     Delouse,
-    RunAway
+    RunAway,
+    Fight
 }
