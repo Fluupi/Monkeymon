@@ -14,11 +14,13 @@ public class Vocalization : ScriptableObject
 public enum VocalizationLength
 {
     Short,
-    Long
+    Long,
+    Multiple
 }
 
 public enum VocalizationTessiture
 {
     Acute,
-    Low
+    Low,
+    Both
 }
