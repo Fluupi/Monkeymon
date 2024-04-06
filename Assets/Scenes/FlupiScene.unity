@@ -153,6 +153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ef066075c54d324982077b810dfd05f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interactionDatabase: {fileID: 0}
   playerMovement: {fileID: 1280652352}
   uiManager: {fileID: 1916420765}
 --- !u!4 &148827955
@@ -721,11 +722,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 2291395026464012817, guid: 53156ccae6df9c9439eb2634b14701ce, type: 3}
   m_PrefabInstance: {fileID: 1179370771}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1179370773 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6051631344126116804, guid: 53156ccae6df9c9439eb2634b14701ce, type: 3}
+--- !u!114 &1179370774 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7240277906734179564, guid: 53156ccae6df9c9439eb2634b14701ce, type: 3}
   m_PrefabInstance: {fileID: 1179370771}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e862502a93e6564cb0d6812e558b3cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1280652349 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7498252891109600538, guid: cfc3eed372c3868448f47959d2311435, type: 3}
@@ -1011,7 +1018,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe78d5e1d8ae1fd4190daca1a345c274, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactionPanel: {fileID: 1179370773}
+  interactionPanel: {fileID: 1179370774}
 --- !u!1 &2026699819
 GameObject:
   m_ObjectHideFlags: 0
