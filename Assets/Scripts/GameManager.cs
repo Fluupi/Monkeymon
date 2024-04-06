@@ -7,8 +7,13 @@ public class GameManager : Singleton<GameManager>
     [SerializeField] private InteractionDatabase interactionDatabase;
     [SerializeField] private PlayerMovement playerMovement;
     [SerializeField] private UIManager uiManager;
+    [SerializeField] private int BananaGain = 2;
+    [SerializeField] private int BananaLoss = 2;
 
     private int _interaction = 0;
+    private int _banana = 3;
+
+    public int Banana { get; }
 
     public void StartInteraction(Monkenemy monkenemy)
     {
@@ -18,6 +23,7 @@ public class GameManager : Singleton<GameManager>
 
     public void EndInteraction()
     {
+        AddBanana();
         _interaction++;
         uiManager.HideInteractionPanel();
         playerMovement.UnFreeze();
@@ -47,5 +53,17 @@ public class GameManager : Singleton<GameManager>
         }
 
         return interactionDatabase.GetResultData(result);
+    }
+
+    public void AddBanana()
+    {
+        _banana += BananaGain;
+        UIManager.Instance.UpdateBanana();
+    }
+
+    public void RemoveBanana()
+    {
+        _banana -= BananaLoss;
+        UIManager.Instance.UpdateBanana();
     }
 }
