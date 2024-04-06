@@ -5,10 +5,17 @@ using UnityEngine.UI;
 
 public class InteractionPanel : MonoBehaviour
 {
+    [SerializeField] private AudioSource _audioSource;
+    [SerializeField] private Image _enemyIllu;
+    [SerializeField] private Image _playerIllu;
+    [SerializeField] private Image _soundVisual;
+
     [SerializeField] private Button _playButton;
     [SerializeField] private Button _delousingButton;
     [SerializeField] private Button _exchangeButton;
     [SerializeField] private Button _runAwayButton;
+
+    private InteractionParameters _interactionParameters = null;
 
     private void Start()
     {
@@ -16,6 +23,19 @@ public class InteractionPanel : MonoBehaviour
         _playButton.onClick.AddListener(OnDelousingPressed);
         _playButton.onClick.AddListener(OnExchangePressed);
         _playButton.onClick.AddListener(OnRunAwayPressed);
+    }
+
+    public void Generate(Monkenemy monkenemy, InteractionParameters interactionParameters)
+    {
+        _interactionParameters = interactionParameters;
+        _enemyIllu.sprite = monkenemy.IlluSprite;
+        _audioSource.clip = interactionParameters.AudioClip;
+        _soundVisual.sprite = interactionParameters.AudioSprite;
+    }
+
+    public void OnDisable()
+    {
+        _interactionParameters = null;
     }
 
     public void OnPlayPressed()
