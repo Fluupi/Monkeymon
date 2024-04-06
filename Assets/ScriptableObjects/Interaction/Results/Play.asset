@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b26aed6664296da4b9e85f6a113a909b, type: 3}
   m_Name: Play
   m_EditorClassIdentifier: 
-  Sound: {fileID: 0}
-  Illustration: {fileID: 0}
+  Sound: {fileID: 8300000, guid: 133789e906c35dd43b968379018d1515, type: 3}
+  Illustration: {fileID: 21300000, guid: 1d99f9dfd2ec99540ac3a8a6604a700a, type: 3}

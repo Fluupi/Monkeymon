@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -69,6 +70,16 @@ public class InteractionPanel : MonoBehaviour
         var data = GameManager.Instance.GetResultData(_interactionParameters.Vocalization, answer);
 
         _audioSource.PlayOneShot(data.Sound);
+        _resultIllu.gameObject.SetActive(true);
         _resultIllu.sprite = data.Illustration;
+
+        StartCoroutine(WaitForHideInteraction());
+    }
+
+    private IEnumerator WaitForHideInteraction()
+    {
+        yield return new WaitWhile(() => _audioSource.isPlaying);
+
+        _resultIllu.gameObject.SetActive(false);
     }
 }

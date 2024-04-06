@@ -23,7 +23,6 @@ public class GameManager : Singleton<GameManager>
 
     public void EndInteraction()
     {
-        AddBanana();
         _interaction++;
         uiManager.HideInteractionPanel();
         playerMovement.UnFreeze();
@@ -36,19 +35,13 @@ public class GameManager : Singleton<GameManager>
         switch(result)
         {
             case InteractionResult.Play:
-                //+2;
-                break;
             case InteractionResult.Delouse:
-                //+1;
-                break;
             case InteractionResult.Exchange:
-                //+1?;
+                AddBanana();
                 break;
             case InteractionResult.RunAway:
-                //-1;
-                break;
             case InteractionResult.Fight:
-                //-2;
+                RemoveBanana();
                 break;
         }
 
@@ -57,7 +50,7 @@ public class GameManager : Singleton<GameManager>
 
     public void AddBanana()
     {
-        _banana += BananaGain;
+        _banana += BananaLoss;
         UIManager.Instance.UpdateBanana();
     }
 
