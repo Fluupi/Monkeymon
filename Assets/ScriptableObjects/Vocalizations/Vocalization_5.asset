@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f78f8703b64a2845893c8a1e4e5cc31, type: 3}
   m_Name: Vocalization_5
   m_EditorClassIdentifier: 
-  Sound: {fileID: 0}
-  Length: 0
+  Sound: {fileID: 8300000, guid: b58e90ef94a51b44b87e41e10739c556, type: 3}
+  Length: 2
   Tessiture: 0
-  AwaitedAnswer: 0
+  AwaitedAnswer: 1

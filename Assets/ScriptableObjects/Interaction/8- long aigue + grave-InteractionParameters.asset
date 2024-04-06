@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ae2d7b4d43cdb141a7b53e3c8b0a0e3, type: 3}
   m_Name: 8- long aigue + grave-InteractionParameters
   m_EditorClassIdentifier: 
-  Vocalization: {fileID: 0}
-  AudioClip: {fileID: 0}
+  Vocalization: {fileID: 11400000, guid: ca46514da5045524b99e31efff710063, type: 2}
+  AudioClip: {fileID: 8300000, guid: 14a39e9aad9953744a7591d216159795, type: 3}
   AudioSprite: {fileID: 0}

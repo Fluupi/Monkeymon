@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ae2d7b4d43cdb141a7b53e3c8b0a0e3, type: 3}
   m_Name: 5- aigue longueur variableInteractionParameters
   m_EditorClassIdentifier: 
-  Vocalization: {fileID: 0}
-  AudioClip: {fileID: 0}
+  Vocalization: {fileID: 11400000, guid: 8041fbd98ff4006418a28793a65d30b1, type: 2}
+  AudioClip: {fileID: 8300000, guid: b58e90ef94a51b44b87e41e10739c556, type: 3}
   AudioSprite: {fileID: 0}

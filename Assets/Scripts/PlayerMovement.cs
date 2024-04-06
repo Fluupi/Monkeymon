@@ -18,6 +18,7 @@ public class PlayerMovement : MonoBehaviour
     {
         _runningSpeed = _speed;
         _animator = GetComponentInChildren<Animator>();
+        Freeze();
     }
 
     private void Update()

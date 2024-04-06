@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ae2d7b4d43cdb141a7b53e3c8b0a0e3, type: 3}
   m_Name: 7- court aigue + grave-InteractionParameters
   m_EditorClassIdentifier: 
-  Vocalization: {fileID: 0}
-  AudioClip: {fileID: 0}
+  Vocalization: {fileID: 11400000, guid: e101ee8c372d3404e8dfb3e29459d174, type: 2}
+  AudioClip: {fileID: 8300000, guid: 38bee87f12ad14040acfee18f70c5d63, type: 3}
   AudioSprite: {fileID: 0}

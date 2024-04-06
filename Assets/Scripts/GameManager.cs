@@ -14,6 +14,11 @@ public class GameManager : Singleton<GameManager>
 
     public int Banana { get => _banana; }
 
+    public void StartGame()
+    {
+        playerMovement.UnFreeze();
+    }
+
     public void StartInteraction(Monkenemy monkenemy)
     {
         uiManager.ShowInteraction(monkenemy, interactionDatabase.GetParameters(_interaction));
