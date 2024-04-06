@@ -737,6 +737,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactionPanel: {fileID: 627492617}
   _textMeshPro: {fileID: 0}
+  _startMenu: {fileID: 0}
 --- !u!4 &650744091
 Transform:
   m_ObjectHideFlags: 0
@@ -1068,8 +1069,7 @@ MonoBehaviour:
   interactionDatabase: {fileID: 11400000, guid: a80d847c42ee52d48a142576c1cde152, type: 2}
   playerMovement: {fileID: 1643703591}
   uiManager: {fileID: 650744090}
-  BananaGain: 2
-  BananaLoss: 2
+  BananaDelta: 2
 --- !u!4 &1355040746
 Transform:
   m_ObjectHideFlags: 0
