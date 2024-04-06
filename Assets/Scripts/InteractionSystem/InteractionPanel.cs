@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -36,6 +37,12 @@ public class InteractionPanel : MonoBehaviour
 
     public void OnEnable()
     {
+        Play();
+    }
+
+    public async void Play()
+    {
+        await Task.Delay(250);
         _audioSource.Play();
     }
 
