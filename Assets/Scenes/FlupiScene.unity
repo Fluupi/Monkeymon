@@ -182,7 +182,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9ee60f6dd165824db760fabcb58ab08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dictionnary: []
+  _dictionnary:
+  - input:
+      vocalization: {fileID: 0}
+      answer: 0
+    result: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -310,24 +314,6 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
---- !u!1 &753757329 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2792275843363559355, guid: cfc3eed372c3868448f47959d2311435, type: 3}
-  m_PrefabInstance: {fileID: 1252251856545546983}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &753757333
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 753757329}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f709543a64876f54eb236bbd4429517b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _inputInteraction: {fileID: -137693538287615452, guid: 83973fb0d10a9d54d8a0060a747ce5ba, type: 3}
 --- !u!1001 &886502088
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1190,17 +1176,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1387469277}
     m_Modifications:
-    - target: {fileID: 79566140292094113, guid: cfc3eed372c3868448f47959d2311435, type: 3}
-      propertyPath: _speed
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 3145798950693037436, guid: cfc3eed372c3868448f47959d2311435, type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 4176664220395851043, guid: cfc3eed372c3868448f47959d2311435, type: 3}
-      propertyPath: m_Camera
-      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7498252891109600538, guid: cfc3eed372c3868448f47959d2311435, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1245,10 +1223,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 2792275843363559355, guid: cfc3eed372c3868448f47959d2311435, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 753757333}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cfc3eed372c3868448f47959d2311435, type: 3}
 --- !u!1001 &2478461509846160125
 PrefabInstance:
