@@ -1,9 +1,14 @@
 fileFormatVersion: 2
-guid: 0ee6e6298201ec9499d98a7095b7e9c6
+guid: c6a61e542ff2fe24fb191299de8c668f
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
   externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Banane
+    second: {fileID: 2100000, guid: 5444a0413759efe46857441cec48e5a0, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -14,6 +19,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Liane
     second: {fileID: 2100000, guid: f47747e933b49fc4d80c4175b842f8a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ROCHER
+    second: {fileID: 2100000, guid: fb41042f2a7e6194592f5ed0f5579593, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
