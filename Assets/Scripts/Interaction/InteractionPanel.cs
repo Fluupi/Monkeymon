@@ -20,31 +20,21 @@ public class InteractionPanel : MonoBehaviour
 
     public void OnPlayPressed()
     {
-        InteractionPanelManager.Instance.HidePanel();
+        GameManager.Instance.EndInteraction();
     }
 
     public void OnDelousingPressed()
     {
-        InteractionPanelManager.Instance.HidePanel();
+        GameManager.Instance.EndInteraction();
     }
 
     public void OnExchangePressed()
     {
-        InteractionPanelManager.Instance.HidePanel();
+        GameManager.Instance.EndInteraction();
     }
     
     public void OnRunAwayPressed()
     {
-        InteractionPanelManager.Instance.HidePanel();
-    }
-
-    public void Generate()
-    {
-        gameObject.SetActive(true);
-    }
-
-    public void Hide()
-    {
-        gameObject.SetActive(false);
+        GameManager.Instance.EndInteraction();
     }
 }

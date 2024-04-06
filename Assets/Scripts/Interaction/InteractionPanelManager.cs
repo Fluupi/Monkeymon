@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class InteractionPanelManager : MonoBehaviour
 {
-    public static InteractionPanelManager Instance { get; private set; }
+    /*public static InteractionPanelManager Instance { get; private set; }
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -35,5 +35,5 @@ public class InteractionPanelManager : MonoBehaviour
     public void HidePanel()
     {
         _interactionPanel.Hide();
-    }
+    }*/
 }

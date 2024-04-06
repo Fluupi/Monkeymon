@@ -10,9 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4214165704919120431}
   - component: {fileID: 3310545882947148538}
+  - component: {fileID: 5658470490603985480}
   m_Layer: 0
   m_Name: Circle
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74,7 +75,7 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.3394544, g: 1, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -84,6 +85,41 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &5658470490603985480
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2792275843363559355}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
 --- !u!1 &3145798950693037436
 GameObject:
   m_ObjectHideFlags: 0
@@ -98,7 +134,7 @@ GameObject:
   - component: {fileID: 1616331522205518280}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -111,7 +147,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3145798950693037436}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -162,7 +198,7 @@ MonoBehaviour:
   m_ActionEvents: []
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
-  m_DefaultActionMap: gameplay
+  m_DefaultActionMap: Gameplay
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
 --- !u!50 &1616331522205518280
