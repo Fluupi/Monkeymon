@@ -173,6 +173,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactionPanel: {fileID: 5462501362522662802}
   _textMeshPro: {fileID: 7878772895319960738}
+  _startMenu: {fileID: 1452279619544844102}
 --- !u!1 &5094576952566286505
 GameObject:
   m_ObjectHideFlags: 0
@@ -812,6 +813,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 4592827957057190025}
   m_SourcePrefab: {fileID: 100100000, guid: 0c5d22c8f9b48ba4ebbdd7881d8471a7, type: 3}
+--- !u!1 &1452279619544844102 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4419021473157577799, guid: 0c5d22c8f9b48ba4ebbdd7881d8471a7, type: 3}
+  m_PrefabInstance: {fileID: 2987025662023564033}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &3789005748113951981 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2153086365659379692, guid: 0c5d22c8f9b48ba4ebbdd7881d8471a7, type: 3}
