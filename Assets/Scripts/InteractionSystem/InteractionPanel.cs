@@ -35,7 +35,6 @@ public class InteractionPanel : MonoBehaviour
     public void Generate(Monkenemy monkenemy, InteractionParameters interactionParameters)
     {
         _interactionParameters = interactionParameters;
-        _enemyIllu.GetComponent<Animator>().runtimeAnimatorController = monkenemy.IlluSprite;
         _audioSource.clip = interactionParameters.AudioClip;
         _soundVisual.sprite = interactionParameters.AudioSprite;
     }

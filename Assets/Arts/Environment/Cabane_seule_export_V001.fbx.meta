@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: 7c16e3d789c6b904da19bd607e0db406
+guid: acc82294da8ff6e42831c59ad4949698
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
   externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Banane
-    second: {fileID: 2100000, guid: 5444a0413759efe46857441cec48e5a0, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -22,43 +17,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: EAU
-    second: {fileID: 2100000, guid: d5b5fbdbf75c67547a5b65c60f4980cf, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: FEUILLES
-    second: {fileID: 2100000, guid: f47747e933b49fc4d80c4175b842f8a6, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Feuillage
-    second: {fileID: 2100000, guid: 35333a7f1a0abbd4a9d44d6dd0b4696d, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: HERBE
-    second: {fileID: 2100000, guid: 35333a7f1a0abbd4a9d44d6dd0b4696d, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
       name: Liane
-    second: {fileID: 2100000, guid: bc732f1e73492244380b21558621c9a4, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: ROCHER
-    second: {fileID: 2100000, guid: fb41042f2a7e6194592f5ed0f5579593, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: SOL
-    second: {fileID: 2100000, guid: 1fd3a92fb3f10874e99b6d808fec0590, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Troncs
-    second: {fileID: 2100000, guid: 63e4a8b7b6075084f93d355a7416e5ba, type: 2}
+    second: {fileID: 2100000, guid: 35333a7f1a0abbd4a9d44d6dd0b4696d, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
