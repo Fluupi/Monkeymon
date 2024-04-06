@@ -7,8 +7,7 @@ public class GameManager : Singleton<GameManager>
     [SerializeField] private InteractionDatabase interactionDatabase;
     [SerializeField] private PlayerMovement playerMovement;
     [SerializeField] private UIManager uiManager;
-    [SerializeField] private int BananaGain = 2;
-    [SerializeField] private int BananaLoss = 2;
+    [SerializeField] private int BananaDelta = 2;
 
     private int _interaction = 0;
     private int _banana = 3;
@@ -50,13 +49,13 @@ public class GameManager : Singleton<GameManager>
 
     public void AddBanana()
     {
-        _banana += BananaLoss;
+        _banana += BananaDelta;
         UIManager.Instance.UpdateBanana();
     }
 
     public void RemoveBanana()
     {
-        _banana -= BananaLoss;
+        _banana -= BananaDelta;
         UIManager.Instance.UpdateBanana();
     }
 }
