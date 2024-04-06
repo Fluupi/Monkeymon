@@ -12,22 +12,31 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Vector2 _direction;
     [SerializeField] private float _speed;
     private float _runningSpeed;
+    private Animator _animator = null;
 
     private void Start()
     {
         _runningSpeed = _speed;
+        _animator = GetComponentInChildren<Animator>();
     }
 
     private void Update()
     {
         _direction = _move.action.ReadValue<Vector2>();
 
-        if (_runningSpeed == 0f || Mathf.Abs(_direction.x) == Mathf.Abs(_direction.y))
-            return;
+        if (Mathf.Abs(_direction.x) == Mathf.Abs(_direction.y))
+        {
+            _direction = Vector2.zero;
+        }
 
-        Debug.Log("moving");
-        
-        _rb.MovePosition(_rb.position + _direction * Time.deltaTime * _runningSpeed);
+        _rb.velocity = _direction * _runningSpeed;
+
+        if (_direction.sqrMagnitude > 0.0f)
+        {
+            Debug.Log("moving");
+        }
+        _animator.SetFloat("Horizontal", _rb.velocity.x);
+        _animator.SetFloat("Vertical", _rb.velocity.y);
     }
 
     public void Freeze()
