@@ -964,8 +964,8 @@ MonoBehaviour:
   _playerIllu: {fileID: 3796063886350588938}
   _soundVisual: {fileID: 6044604830677596117}
   _playButton: {fileID: 8417108474843669574}
-  _delousingButton: {fileID: 5161747231507193464}
-  _exchangeButton: {fileID: 8029178783268413447}
+  _delousingButton: {fileID: 8029178783268413447}
+  _exchangeButton: {fileID: 5161747231507193464}
   _runAwayButton: {fileID: 2826762129559740506}
   _resultIllu: {fileID: 6675796485929187930}
 --- !u!82 &691587298281218635
