@@ -27,10 +27,12 @@ public class GameManager : Singleton<GameManager>
     {
         if (monkenemy is Monkenemy enemy)
         {
-            uiManager.ShowInteraction(enemy, interactionDatabase.GetParameters(_interaction));
+            if (interactionDatabase.TryAndGetParameters(_interaction, out var param))
+                uiManager.ShowInteraction(enemy, param);
+            else
+                enemy.transform.parent.gameObject.SetActive(false);
         }
-        else
-        if (monkenemy is Bonolady _)
+        else if (monkenemy is Bonolady _)
         {
             if (_interaction < InteractionMax)
             {

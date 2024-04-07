@@ -4,7 +4,7 @@ using UnityEngine.InputSystem;
 public class NPCInteraction : MonoBehaviour
 {
     [SerializeField] private InputActionReference _inputInteraction;
-    private Monkey _monkenemy;
+    [SerializeField] private Monkey _monkenemy;
 
     void Start()
     {
@@ -34,7 +34,7 @@ public class NPCInteraction : MonoBehaviour
         if (collision.TryGetComponent<Monkey>(out var monkenemy))
         {
             monkenemy.CloseIndicator();
-            _monkenemy = monkenemy;
+            _monkenemy = null;
         }
     }
 }

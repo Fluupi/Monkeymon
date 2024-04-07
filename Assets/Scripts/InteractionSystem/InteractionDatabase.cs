@@ -11,9 +11,16 @@ public class InteractionDatabase : ScriptableObject
 
     public int ParametersCount { get { return _parameters.Count;  } }
 
-    public InteractionParameters GetParameters(int parameter)
+    public bool TryAndGetParameters(int parameter, out InteractionParameters param)
     {
-        return _parameters[parameter]; 
+        if (parameter < _parameters.Count)
+        {
+            param = _parameters[parameter];
+            return true;
+        }
+
+        param = null;
+        return false;
     }
 
     public InteractionResultData GetResultData(InteractionResult parameter)
