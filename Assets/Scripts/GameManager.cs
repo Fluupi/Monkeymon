@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : Singleton<GameManager>
 {
@@ -8,6 +9,8 @@ public class GameManager : Singleton<GameManager>
     [SerializeField] private PlayerMovement playerMovement;
     [SerializeField] private UIManager uiManager;
     [SerializeField] private int BananaDelta = 2;
+    [SerializeField] private int BananaGoal = 15;
+    [SerializeField] private int InteractionMax = 3;
 
     private int _interaction = 0;
     private int _banana = 3;
@@ -20,16 +23,48 @@ public class GameManager : Singleton<GameManager>
         UIManager.Instance.UpdateBanana();
     }
 
-    public void StartInteraction(Monkenemy monkenemy)
+    public void StartInteraction(Monkey monkenemy)
     {
-        uiManager.ShowInteraction(monkenemy, interactionDatabase.GetParameters(_interaction));
-        playerMovement.Freeze();
+        if (monkenemy is Monkenemy enemy)
+        {
+            uiManager.ShowInteraction(enemy, interactionDatabase.GetParameters(_interaction));
+        }
+        else
+        if (monkenemy is Bonolady lady)
+        {
+            if (_interaction < InteractionMax)
+            {
+                uiManager.ShowTuto();
+            }
+            else
+            {
+                if (_banana > BananaGoal)
+                {
+                    uiManager.ShowWin(_banana);
+                }
+                else
+                {
+                    uiManager.ShowLoose(_banana);
+                }
+            }
+        }
+        Freeze();
     }
 
     public void EndInteraction()
     {
         _interaction++;
         uiManager.HideInteractionPanel();
+        UnFreeze();
+    }
+
+    public void Freeze()
+    {
+        playerMovement.Freeze();
+    }
+
+    public void UnFreeze()
+    {
         playerMovement.UnFreeze();
     }
 
@@ -62,6 +97,15 @@ public class GameManager : Singleton<GameManager>
     public void RemoveBanana()
     {
         _banana -= BananaDelta;
+        if (_banana < 0)
+        {
+            _banana = 0;
+        }
         UIManager.Instance.UpdateBanana();
+    }
+
+    public void RestartGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }

@@ -9,6 +9,7 @@ public class InteractionDatabase : ScriptableObject
 
     [SerializeField] private List<TupleResultData> _interactionResultData = null;
 
+    public int ParametersCount { get { return _parameters.Count;  } }
 
     public InteractionParameters GetParameters(int parameter)
     {
