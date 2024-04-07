@@ -4,7 +4,7 @@ using UnityEngine.InputSystem;
 public class NPCInteraction : MonoBehaviour
 {
     [SerializeField] private InputActionReference _inputInteraction;
-    private Monkenemy _monkenemy;
+    private Monkey _monkenemy;
 
     void Start()
     {
@@ -22,7 +22,7 @@ public class NPCInteraction : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Debug.Log(collision.gameObject.name);
-        if (collision.TryGetComponent<Monkenemy>(out var monkenemy))
+        if (collision.TryGetComponent<Monkey>(out var monkenemy))
         {
             monkenemy.OpenIndicator();
             _monkenemy = monkenemy;
@@ -31,7 +31,7 @@ public class NPCInteraction : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.TryGetComponent<Monkenemy>(out var monkenemy))
+        if (collision.TryGetComponent<Monkey>(out var monkenemy))
         {
             monkenemy.CloseIndicator();
             _monkenemy = monkenemy;

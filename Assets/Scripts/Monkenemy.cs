@@ -1,16 +1,5 @@
 using UnityEngine;
 
-public class Monkenemy : MonoBehaviour
+public class Monkenemy : Monkey
 {
-    [SerializeField] private GameObject possibleInteractionIndicator;
-
-    public void OpenIndicator()
-    {
-        possibleInteractionIndicator.SetActive(true);
-    }
-
-    public void CloseIndicator()
-    {
-        possibleInteractionIndicator.SetActive(false);
-    }
 }

@@ -20,6 +20,7 @@ public class InteractionPanel : MonoBehaviour
     [SerializeField] private Image _resultIllu;
 
     private InteractionParameters _interactionParameters = null;
+    private Monkenemy _monkenemy = null;
 
     private void Start()
     {
@@ -34,6 +35,7 @@ public class InteractionPanel : MonoBehaviour
         _interactionParameters = interactionParameters;
         _audioSource.clip = interactionParameters.AudioClip;
         _soundVisual.sprite = interactionParameters.AudioSprite;
+        _monkenemy = monkenemy;
     }
 
     public void OnEnable()
@@ -93,5 +95,6 @@ public class InteractionPanel : MonoBehaviour
         _playInteractionPanel.SetActive(true);
 
         GameManager.Instance.EndInteraction();
+        _monkenemy.transform.parent.gameObject.SetActive(false);
     }
 }
