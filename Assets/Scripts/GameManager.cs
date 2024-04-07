@@ -87,8 +87,11 @@ public class GameManager : Singleton<GameManager>
                 AddBanana();
                 break;
             case InteractionResult.RunAway:
+                RemoveBanana(1);
+                break;
             case InteractionResult.Fight:
-                RemoveBanana();
+                RemoveBanana(BananaDelta);
+                break;
                 break;
         }
 
@@ -101,9 +104,9 @@ public class GameManager : Singleton<GameManager>
         UIManager.Instance.UpdateBanana();
     }
 
-    public void RemoveBanana()
+    public void RemoveBanana(int delta)
     {
-        _banana -= BananaDelta;
+        _banana -= delta;
         if (_banana < 0)
         {
             _banana = 0;

@@ -480,26 +480,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1370620345013528117, guid: 4603ccb5052d3a1429a4feb03171d949, type: 3}
-      propertyPath: m_fontSize
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 1370620345013528117, guid: 4603ccb5052d3a1429a4feb03171d949, type: 3}
-      propertyPath: m_fontSizeBase
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 1452279619544844102, guid: 4603ccb5052d3a1429a4feb03171d949, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1535486255537565346, guid: 4603ccb5052d3a1429a4feb03171d949, type: 3}
       propertyPath: playerMovement
       value: 
       objectReference: {fileID: 1178195595}
-    - target: {fileID: 4245620840282610023, guid: 4603ccb5052d3a1429a4feb03171d949, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6189234892939280823, guid: 4603ccb5052d3a1429a4feb03171d949, type: 3}
       propertyPath: m_Name
       value: ---- Managers ----
