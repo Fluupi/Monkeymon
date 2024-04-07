@@ -123,6 +123,17 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &1178195595 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7465491495479699027, guid: 95c25c7f864eccc4db0ce57efda59fd2, type: 3}
+  m_PrefabInstance: {fileID: 530533097070285913}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7af3837ebc67e54992d403125d7fab4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1815361445
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -301,7 +312,7 @@ Transform:
   m_GameObject: {fileID: 1964980296}
   serializedVersion: 2
   m_LocalRotation: {x: -0.38268343, y: 0, z: 0, w: 0.92387956}
-  m_LocalPosition: {x: -22.1, y: -10.94, z: -10}
+  m_LocalPosition: {x: -3.47, y: -13.114044, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -358,22 +369,6 @@ PrefabInstance:
     - target: {fileID: 898877918751404790, guid: 95c25c7f864eccc4db0ce57efda59fd2, type: 3}
       propertyPath: m_Name
       value: ---- Gameplay ----
-      objectReference: {fileID: 0}
-    - target: {fileID: 1049137826133971944, guid: 95c25c7f864eccc4db0ce57efda59fd2, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -22.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1049137826133971944, guid: 95c25c7f864eccc4db0ce57efda59fd2, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.94
-      objectReference: {fileID: 0}
-    - target: {fileID: 1492536643146702685, guid: 95c25c7f864eccc4db0ce57efda59fd2, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -22.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1492536643146702685, guid: 95c25c7f864eccc4db0ce57efda59fd2, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -10.94
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -485,6 +480,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1535486255537565346, guid: 4603ccb5052d3a1429a4feb03171d949, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 1178195595}
     - target: {fileID: 6189234892939280823, guid: 4603ccb5052d3a1429a4feb03171d949, type: 3}
       propertyPath: m_Name
       value: ---- Managers ----
