@@ -53,6 +53,11 @@ public class TutoPanel : MonoBehaviour
 
     public void Next()
     {
+        if (i >= _tuto.Count)
+        {
+            EndTuto();
+            return;
+        }
         _tuto[i].SetActive(false);
         i++;
         if (i < _tuto.Count)
