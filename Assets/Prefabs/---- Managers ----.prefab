@@ -963,6 +963,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Menus
       objectReference: {fileID: 0}
+    - target: {fileID: 4419021473157577799, guid: 0c5d22c8f9b48ba4ebbdd7881d8471a7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7102382445040353697, guid: 0c5d22c8f9b48ba4ebbdd7881d8471a7, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1300,7 +1304,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 277079295791197287, guid: 8d85e753fb822f347834cfefdd963a38, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6394884099887787723, guid: 8d85e753fb822f347834cfefdd963a38, type: 3}
       propertyPath: m_Pivot.x
