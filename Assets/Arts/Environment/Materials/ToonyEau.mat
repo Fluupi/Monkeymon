@@ -25,11 +25,11 @@ Material:
     m_TexEnvs: []
     m_Ints: []
     m_Floats:
-    - _RimMax: 1
-    - _RimMin: 0.573
+    - _RimMax: 0.391
+    - _RimMin: 1
     m_Colors:
-    - _Color: {r: 0.3443396, g: 0.631846, b: 1, a: 1}
-    - _HColor: {r: 1, g: 1, b: 1, a: 1}
-    - _RimColor: {r: 0.13333334, g: 0.59656394, b: 0.90588236, a: 0.6}
-    - _SColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.4258633, g: 0.5392922, b: 0.6226415, a: 1}
+    - _HColor: {r: 0.5821022, g: 0.9295797, b: 0.9716981, a: 1}
+    - _RimColor: {r: 0.16233535, g: 0.5092855, b: 0.6037736, a: 0.6}
+    - _SColor: {r: 0.1014151, g: 0.32959908, b: 0.4056604, a: 1}
   m_BuildTextureStacks: []
