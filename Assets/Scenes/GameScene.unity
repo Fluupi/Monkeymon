@@ -123,107 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &611814963 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4696767981909811443, guid: 4603ccb5052d3a1429a4feb03171d949, type: 3}
-  m_PrefabInstance: {fileID: 8148249585700136514}
-  m_PrefabAsset: {fileID: 0}
---- !u!82 &611814966
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 611814963}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: -983387250017813182, guid: 0811879ff7315b642ab65291550d055e, type: 2}
-  m_audioClip: {fileID: 8300000, guid: be561efdcc89cd642b898881a1c6d749, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 1
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!114 &1178195595 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7465491495479699027, guid: 95c25c7f864eccc4db0ce57efda59fd2, type: 3}
@@ -585,18 +484,6 @@ PrefabInstance:
       propertyPath: playerMovement
       value: 
       objectReference: {fileID: 1178195595}
-    - target: {fileID: 2246342527309158798, guid: 4603ccb5052d3a1429a4feb03171d949, type: 3}
-      propertyPath: _gameMusic
-      value: 
-      objectReference: {fileID: 8300000, guid: d9580faafa9b2254da4221a1d2a076d7, type: 3}
-    - target: {fileID: 2246342527309158798, guid: 4603ccb5052d3a1429a4feb03171d949, type: 3}
-      propertyPath: _menuMusic
-      value: 
-      objectReference: {fileID: 8300000, guid: be561efdcc89cd642b898881a1c6d749, type: 3}
-    - target: {fileID: 2246342527309158798, guid: 4603ccb5052d3a1429a4feb03171d949, type: 3}
-      propertyPath: _ambiantSource
-      value: 
-      objectReference: {fileID: 611814966}
     - target: {fileID: 5152359173722207547, guid: 4603ccb5052d3a1429a4feb03171d949, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -652,10 +539,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 4696767981909811443, guid: 4603ccb5052d3a1429a4feb03171d949, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 611814966}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4603ccb5052d3a1429a4feb03171d949, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
