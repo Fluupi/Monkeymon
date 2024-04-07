@@ -285,10 +285,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monkenemy (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 1709712986919667164, guid: dbd748cb175870744af5d99943aa61db, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2278182273182029916, guid: dbd748cb175870744af5d99943aa61db, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.85
@@ -350,10 +346,6 @@ PrefabInstance:
     - target: {fileID: 1709712986919667164, guid: dbd748cb175870744af5d99943aa61db, type: 3}
       propertyPath: m_Name
       value: Monkenemy (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1709712986919667164, guid: dbd748cb175870744af5d99943aa61db, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2278182273182029916, guid: dbd748cb175870744af5d99943aa61db, type: 3}
       propertyPath: m_LocalPosition.x
@@ -417,10 +409,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monkenemy (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 1709712986919667164, guid: dbd748cb175870744af5d99943aa61db, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2278182273182029916, guid: dbd748cb175870744af5d99943aa61db, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.87
@@ -482,10 +470,6 @@ PrefabInstance:
     - target: {fileID: 1709712986919667164, guid: dbd748cb175870744af5d99943aa61db, type: 3}
       propertyPath: m_Name
       value: Monkenemy (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1709712986919667164, guid: dbd748cb175870744af5d99943aa61db, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2278182273182029916, guid: dbd748cb175870744af5d99943aa61db, type: 3}
       propertyPath: m_LocalPosition.x
@@ -549,10 +533,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monkenemy (7)
       objectReference: {fileID: 0}
-    - target: {fileID: 1709712986919667164, guid: dbd748cb175870744af5d99943aa61db, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2278182273182029916, guid: dbd748cb175870744af5d99943aa61db, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.86
@@ -614,10 +594,6 @@ PrefabInstance:
     - target: {fileID: 1709712986919667164, guid: dbd748cb175870744af5d99943aa61db, type: 3}
       propertyPath: m_Name
       value: Monkenemy (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1709712986919667164, guid: dbd748cb175870744af5d99943aa61db, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2278182273182029916, guid: dbd748cb175870744af5d99943aa61db, type: 3}
       propertyPath: m_LocalPosition.x
@@ -804,10 +780,6 @@ PrefabInstance:
     - target: {fileID: 1709712986919667164, guid: dbd748cb175870744af5d99943aa61db, type: 3}
       propertyPath: m_Name
       value: Monkenemy (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1709712986919667164, guid: dbd748cb175870744af5d99943aa61db, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2278182273182029916, guid: dbd748cb175870744af5d99943aa61db, type: 3}
       propertyPath: m_LocalPosition.x

@@ -7,16 +7,23 @@ public class InteractionPanel : MonoBehaviour
     
     [SerializeField] private AudioSource _audioSource;
 
+    [Space]
     [SerializeField] private GameObject _playInteractionPanel;
     [SerializeField] private Image _enemyIllu;
     [SerializeField] private Image _playerIllu;
-    [SerializeField] private Image _soundVisual;
 
+    [Space]
     [SerializeField] private Button _playButton;
     [SerializeField] private Button _delousingButton;
     [SerializeField] private Button _exchangeButton;
     [SerializeField] private Button _runAwayButton;
 
+    [Space]
+    [SerializeField] private Button _helpButton;
+    [SerializeField] private GameObject _helpObject;
+    [SerializeField] private Image _soundVisual;
+
+    [Space]
     [SerializeField] private Image _resultIllu;
 
     private InteractionParameters _interactionParameters = null;
@@ -28,6 +35,7 @@ public class InteractionPanel : MonoBehaviour
         _delousingButton.onClick.AddListener(OnDelousingPressed);
         _exchangeButton.onClick.AddListener(OnExchangePressed);
         _runAwayButton.onClick.AddListener(OnRunAwayPressed);
+        _helpButton.onClick.AddListener(OnHelpPressed);
     }
 
     public void Generate(Monkenemy monkenemy, InteractionParameters interactionParameters)
@@ -40,6 +48,7 @@ public class InteractionPanel : MonoBehaviour
 
     public void OnEnable()
     {
+        _helpObject.SetActive(false);
         StartCoroutine(Play());
     }
 
@@ -47,6 +56,7 @@ public class InteractionPanel : MonoBehaviour
     {
         yield return new WaitForSeconds(.25f);
         _audioSource.Play();
+        _enemyIllu.GetComponentInChildren<Animator>().Play("Play");
     }
 
     public void OnDisable()
@@ -72,6 +82,12 @@ public class InteractionPanel : MonoBehaviour
     public void OnRunAwayPressed()
     {
         PlayAnswer(InteractionAnswer.RunAway);
+    }
+
+    public void OnHelpPressed()
+    {
+        _helpObject.SetActive(true);
+        StartCoroutine(Play());
     }
 
     public void PlayAnswer(InteractionAnswer answer)
