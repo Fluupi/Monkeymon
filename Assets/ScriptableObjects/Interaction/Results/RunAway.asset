@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b26aed6664296da4b9e85f6a113a909b, type: 3}
   m_Name: RunAway
   m_EditorClassIdentifier: 
-  Sound: {fileID: 0}
+  Sound: {fileID: 8300000, guid: 5e87a0e43dc71fc48a97f0299904a8d4, type: 3}
   Illustration: {fileID: 21300000, guid: 2fbbe6200266f0044a34906e1294f80d, type: 3}
