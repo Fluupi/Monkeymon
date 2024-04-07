@@ -1,7 +1,4 @@
-using System;
 using System.Collections;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -41,12 +38,12 @@ public class InteractionPanel : MonoBehaviour
 
     public void OnEnable()
     {
-        Play();
+        StartCoroutine(Play());
     }
 
-    public async void Play()
+    public IEnumerator Play()
     {
-        await Task.Delay(250);
+        yield return new WaitForSeconds(.25f);
         _audioSource.Play();
     }
 
