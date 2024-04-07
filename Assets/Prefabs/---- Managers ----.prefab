@@ -947,29 +947,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 8766641257139436180}
     m_Modifications:
-    - target: {fileID: 2264090487071058471, guid: 0c5d22c8f9b48ba4ebbdd7881d8471a7, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 1535486255537565346}
     - target: {fileID: 4419021473157577799, guid: 0c5d22c8f9b48ba4ebbdd7881d8471a7, type: 3}
       propertyPath: m_Name
       value: Menus
-      objectReference: {fileID: 0}
-    - target: {fileID: 4419021473157577799, guid: 0c5d22c8f9b48ba4ebbdd7881d8471a7, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6854728756743823248, guid: 0c5d22c8f9b48ba4ebbdd7881d8471a7, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 11.399963
-      objectReference: {fileID: 0}
-    - target: {fileID: 7074687512916583338, guid: 0c5d22c8f9b48ba4ebbdd7881d8471a7, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 11.931274
-      objectReference: {fileID: 0}
-    - target: {fileID: 7074687512916583338, guid: 0c5d22c8f9b48ba4ebbdd7881d8471a7, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -100.874084
       objectReference: {fileID: 0}
     - target: {fileID: 7102382445040353697, guid: 0c5d22c8f9b48ba4ebbdd7881d8471a7, type: 3}
       propertyPath: m_Pivot.x
