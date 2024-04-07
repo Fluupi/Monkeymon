@@ -17,6 +17,11 @@ public class GameManager : Singleton<GameManager>
 
     public int Banana { get => _banana; }
 
+    private void Start()
+    {
+        playerMovement = FindAnyObjectByType<PlayerMovement>();
+    }
+
     public void StartGame()
     {
         UIManager.Instance.UpdateBanana();
