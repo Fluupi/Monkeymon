@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Vocalization: {fileID: 11400000, guid: ef0e37dad41686745a81b50e4fac6072, type: 2}
   AudioClip: {fileID: 8300000, guid: c9b696a99dcb05d4a9d598ca70a33822, type: 3}
-  AudioSprite: {fileID: 0}
+  AudioSprite: {fileID: 21300000, guid: 581d9175745971c4d8fc54b4d2c8c67a, type: 3}
