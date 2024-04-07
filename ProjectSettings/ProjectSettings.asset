@@ -14,7 +14,7 @@ PlayerSettings:
   accelerometerFrequency: 60
   companyName: Phobos
   productName: MonkeyTone
-  defaultCursor: {fileID: 0}
+  defaultCursor: {fileID: 2800000, guid: 04fe4c41ad72796419ad15ab618ed22e, type: 3}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
   m_ShowUnitySplashScreen: 1
