@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Fight
   m_EditorClassIdentifier: 
   Sound: {fileID: 8300000, guid: 0db7615f7bf9c9a468cff270ebec1bbc, type: 3}
-  Illustration: {fileID: 21300000, guid: c120af5cd2517c34d97c8436cc01e1fc, type: 3}
+  Illustration: {fileID: 21300000, guid: ef7bb9dce9b9ef24e9565b1d9b1b43fc, type: 3}
