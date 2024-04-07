@@ -370,6 +370,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: ---- Gameplay ----
       objectReference: {fileID: 0}
+    - target: {fileID: 3509097184924002378, guid: 95c25c7f864eccc4db0ce57efda59fd2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635168127826026975, guid: 95c25c7f864eccc4db0ce57efda59fd2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7219076282984267160, guid: 95c25c7f864eccc4db0ce57efda59fd2, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
