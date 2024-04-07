@@ -54,7 +54,7 @@ public class InteractionPanel : MonoBehaviour
 
     public IEnumerator Play()
     {
-        yield return new WaitForSeconds(.25f);
+        yield return new WaitForSeconds(.5f);
         _audioSource.Play();
         _enemyIllu.GetComponentInChildren<Animator>().Play("Play");
     }

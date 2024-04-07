@@ -13,9 +13,13 @@ public class UIManager : Singleton<UIManager>
     [SerializeField] private TextMeshProUGUI _textMeshPro = null;
     [SerializeField] private GameObject _startMenu = null;
 
+    [SerializeField] private AudioSource _ambiantSource;
+    [SerializeField] private AudioClip _menuMusic;
+    [SerializeField] private AudioClip _gameMusic;
+
     private void Start()
     {
-        HideInteractionPanel();
+        interactionPanel.gameObject.SetActive(false);
         _startMenu.SetActive(true);
         tutoPanel.SetActive(false);
         winPanel.SetActive(false);
@@ -26,6 +30,7 @@ public class UIManager : Singleton<UIManager>
     {
         interactionPanel.Generate(monkenemy, interactionParameters);
         interactionPanel.gameObject.SetActive(true);
+        _ambiantSource.clip = null;
     }
 
     public void ShowTuto()
@@ -48,8 +53,10 @@ public class UIManager : Singleton<UIManager>
 
     public void HideTutoPanel()
     {
-        tutoPanel.gameObject.SetActive(false);
+        tutoPanel.SetActive(false);
         GameManager.Instance.UnFreeze();
+        _ambiantSource.clip = _gameMusic;
+        _ambiantSource.Play();
     }
 
     public void HideInteractionPanel()
