@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Exchange
   m_EditorClassIdentifier: 
   Sound: {fileID: 8300000, guid: ad2ce0e8242a3c340a4eb30533531062, type: 3}
-  Illustration: {fileID: 21300000, guid: 63f1bac0a8ae31b4686540f818e62736, type: 3}
+  Illustration: {fileID: 21300000, guid: 87b16a26b40a51a4190ccd03a9bd8e88, type: 3}

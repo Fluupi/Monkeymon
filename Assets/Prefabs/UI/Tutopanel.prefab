@@ -309,10 +309,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Voici 3 bananes pour commencer la partie !
-
-
-    Bonne chance !!'
+  m_text: "Si tu ne te souviens plus de mes conseils, tu peux revenir \xE0 tout moment
+    \xE0 la cabanne pour que je te r\xE9explique.\nVoici 3 bananes pour commencer
+    la partie !\n\nBonne chance !!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a15a93c8f44601a4caa7a22b3aed9938, type: 2}
   m_sharedMaterial: {fileID: 5921541562153417305, guid: a15a93c8f44601a4caa7a22b3aed9938, type: 2}
@@ -599,8 +598,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Tu pourras r\xE9pondre \xE0 leur vocalisation par 4 actions: un \xE9change
     de fruit afin d'apaiser un bonobo qui para\xEEtrait aggressif, un \xE9pouillage
-    pour renforcer le lien social dans un contexte calme et amicale, un jeu pour
-    t'amuser avec un singe excit\xE9, ou bien fuir si tu as un doute."
+    pour d\xE9velopper l'amiti\xE9 dans un contexte calme, un jeu pour t'amuser avec
+    un singe excit\xE9, ou bien fuir si tu as un doute."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a15a93c8f44601a4caa7a22b3aed9938, type: 2}
   m_sharedMaterial: {fileID: 5921541562153417305, guid: a15a93c8f44601a4caa7a22b3aed9938, type: 2}
@@ -872,7 +871,7 @@ MonoBehaviour:
   m_text: "Mais attention, tu risques de faire tomber une banane sur le chemin en
     fuyant la conversation.\nSi tu agis de la bonne fa\xE7on, tu pourras remporter
     des bananes. En cas d'erreur, il t'attaquera et te volera des bananes dans ta
-    r\xE9serve."
+    r\xE9serve. "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a15a93c8f44601a4caa7a22b3aed9938, type: 2}
   m_sharedMaterial: {fileID: 5921541562153417305, guid: a15a93c8f44601a4caa7a22b3aed9938, type: 2}
@@ -1234,7 +1233,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Bonolady et Bonobuddy viennent de se marier et emm\xE9nagent dans le clan
-    de Bonolady.\nBonolady est enceinte et a une fringale, elle veut que Bonoduddy
+    de Bonolady.\nBonolady est enceinte et a une fringale, elle veut que Bonobuddy
     aille lui chercher des bananes."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a15a93c8f44601a4caa7a22b3aed9938, type: 2}
@@ -1369,9 +1368,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Si tu as besoins d'un coup de patte pour l'analyse des sons, tu peux appuyer
-    sur mon image durant tes rencontres avec les membres du clan. Je te fournirais
-    une <b>repr\xE9sentation sch\xE9matique</b> de leurs vocalisations."
+  m_text: "Quand la vocalisation est <color=#FF9933>longue</color>, le singe en face
+    est  <color=#3399FF>excit\xE9</color>. Quand la vocalisation est <color=#FF9933>courte</color>
+    , le singe est  <color=#3399FF>calme</color>.Si tu as besoins d'un coup de patte
+    pour l'analyse des sons, tu peux appuyer sur mon image durant tes rencontres
+    avec les membres du clan. Je te fournirais une <b>repr\xE9sentation sch\xE9matique</b>
+    de leurs vocalisations."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a15a93c8f44601a4caa7a22b3aed9938, type: 2}
   m_sharedMaterial: {fileID: 5921541562153417305, guid: a15a93c8f44601a4caa7a22b3aed9938, type: 2}

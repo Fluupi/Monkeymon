@@ -215,6 +215,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 193412531451020138, guid: cfc3eed372c3868448f47959d2311435, type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 193412531451020138, guid: cfc3eed372c3868448f47959d2311435, type: 3}
+      propertyPath: m_FlipY
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3145798950693037436, guid: cfc3eed372c3868448f47959d2311435, type: 3}
       propertyPath: m_Name
       value: Player
@@ -736,6 +744,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionPanel: {fileID: 627492617}
+  tutoPanel: {fileID: 0}
+  winPanel: {fileID: 0}
+  loosePanel: {fileID: 0}
   _textMeshPro: {fileID: 0}
   _startMenu: {fileID: 0}
 --- !u!4 &650744091
@@ -1070,6 +1081,8 @@ MonoBehaviour:
   playerMovement: {fileID: 1643703591}
   uiManager: {fileID: 650744090}
   BananaDelta: 2
+  BananaGoal: 15
+  InteractionMax: 3
 --- !u!4 &1355040746
 Transform:
   m_ObjectHideFlags: 0
