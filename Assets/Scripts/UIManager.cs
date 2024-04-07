@@ -30,7 +30,7 @@ public class UIManager : Singleton<UIManager>
     {
         interactionPanel.Generate(monkenemy, interactionParameters);
         interactionPanel.gameObject.SetActive(true);
-        _ambiantSource.clip = null;
+        _ambiantSource.Pause();
     }
 
     public void ShowTuto()
@@ -62,6 +62,7 @@ public class UIManager : Singleton<UIManager>
     public void HideInteractionPanel()
     {
         interactionPanel.gameObject.SetActive(false);
+        _ambiantSource.Pause();
     }
 
     public void UpdateBanana()
