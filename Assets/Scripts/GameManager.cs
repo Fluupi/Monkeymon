@@ -19,8 +19,8 @@ public class GameManager : Singleton<GameManager>
 
     public void StartGame()
     {
-        playerMovement.UnFreeze();
         UIManager.Instance.UpdateBanana();
+        UIManager.Instance.ShowTuto();
     }
 
     public void StartInteraction(Monkey monkenemy)
