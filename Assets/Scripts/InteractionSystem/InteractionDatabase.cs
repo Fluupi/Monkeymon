@@ -34,15 +34,12 @@ public class InteractionDatabase : ScriptableObject
         }
         else if (answer == vocalization.AwaitedAnswer)
         {
-            switch (answer)
+            return answer switch
             {
-                case InteractionAnswer.Play:
-                    return InteractionResult.Play;
-                case InteractionAnswer.FruitOffer:
-                    return InteractionResult.Exchange;
-                default:
-                    return InteractionResult.Delouse;
-            }
+                InteractionAnswer.Play => InteractionResult.Play,
+                InteractionAnswer.FruitOffer => InteractionResult.Exchange,
+                _ => InteractionResult.Delouse,
+            };
         }
         else
             return InteractionResult.Fight;

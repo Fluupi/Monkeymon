@@ -30,7 +30,7 @@ public class GameManager : Singleton<GameManager>
             uiManager.ShowInteraction(enemy, interactionDatabase.GetParameters(_interaction));
         }
         else
-        if (monkenemy is Bonolady lady)
+        if (monkenemy is Bonolady _)
         {
             if (_interaction < InteractionMax)
             {
