@@ -134,6 +134,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _inputInteraction: {fileID: -137693538287615452, guid: 83973fb0d10a9d54d8a0060a747ce5ba, type: 3}
+  _monkenemy: {fileID: 0}
 --- !u!1 &3145798950693037436
 GameObject:
   m_ObjectHideFlags: 0
@@ -314,8 +315,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -775397427
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 476a5848409eeb544baffbb799093a2d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

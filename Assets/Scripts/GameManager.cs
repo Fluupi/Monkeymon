@@ -92,7 +92,6 @@ public class GameManager : Singleton<GameManager>
             case InteractionResult.Fight:
                 RemoveBanana(BananaDelta);
                 break;
-                break;
         }
 
         return interactionDatabase.GetResultData(result);
