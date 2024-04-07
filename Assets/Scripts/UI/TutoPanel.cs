@@ -11,6 +11,7 @@ public class TutoPanel : MonoBehaviour
     public void OnEnable()
     {
         i = 0;
+        _tuto[i].SetActive(true);
     }
 
     public void Next()
