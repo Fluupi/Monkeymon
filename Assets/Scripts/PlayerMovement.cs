@@ -14,6 +14,9 @@ public class PlayerMovement : MonoBehaviour
     private float _runningSpeed;
     private Animator _animator = null;
 
+    private bool currentChosenDirection; //true=x, false=y
+    private bool isInDoubleDirection;
+
     private void Start()
     {
         _runningSpeed = _speed;
@@ -25,17 +28,24 @@ public class PlayerMovement : MonoBehaviour
     {
         _direction = _move.action.ReadValue<Vector2>();
 
-        if (Mathf.Abs(_direction.x) == Mathf.Abs(_direction.y))
+        if (_direction.x != 0f && _direction.y != 0f)
         {
-            _direction = Vector2.zero;
+            if (!isInDoubleDirection)
+                isInDoubleDirection = true;
+
+            _direction = new Vector2(
+                currentChosenDirection ? _direction.x : 0f,
+                !currentChosenDirection ? _direction.y : 0f
+                );
+        }
+        else 
+        {
+            isInDoubleDirection = false;
+            currentChosenDirection = _direction.x == 0f;
         }
 
         _rb.velocity = _direction * _runningSpeed;
 
-        if (_direction.sqrMagnitude > 0.0f)
-        {
-            Debug.Log("moving");
-        }
         _animator.SetFloat("Horizontal", _rb.velocity.x);
         _animator.SetFloat("Vertical", _rb.velocity.y);
     }
