@@ -62,7 +62,7 @@ public class UIManager : Singleton<UIManager>
     public void HideInteractionPanel()
     {
         interactionPanel.gameObject.SetActive(false);
-        _ambiantSource.Pause();
+        _ambiantSource.Play();
     }
 
     public void UpdateBanana()
