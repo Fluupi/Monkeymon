@@ -5,15 +5,17 @@ public class NPCInteraction : MonoBehaviour
 {
     [SerializeField] private InputActionReference _inputInteraction;
     [SerializeField] private Monkey _monkenemy;
+    private PlayerMovement _playerMovement;
 
     void Start()
     {
+        _playerMovement = transform.parent.GetComponent<PlayerMovement>();
         _inputInteraction.action.started += Action_started;
     }
 
     private void Action_started(InputAction.CallbackContext obj)
     {
-        if (_monkenemy != null)
+        if (_monkenemy != null && _playerMovement.Freezed == false)
         {
             GameManager.Instance.StartInteraction(_monkenemy);
         }

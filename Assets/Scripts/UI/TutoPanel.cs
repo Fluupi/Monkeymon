@@ -19,7 +19,7 @@ public class TutoPanel : MonoBehaviour
 
     private void Start()
     {
-        _inputInteraction.action.started += Action_started;
+       // _inputInteraction.action.started += Action_started;
     }
 
     public void OnEnable()

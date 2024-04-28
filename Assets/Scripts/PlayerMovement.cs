@@ -13,6 +13,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float _speed;
     private float _runningSpeed;
     private Animator _animator = null;
+    private bool _freezed = false;
+    public bool Freezed { get => _freezed; }
 
     private bool currentChosenDirection; //true=x, false=y
     private bool isInDoubleDirection;
@@ -53,10 +55,12 @@ public class PlayerMovement : MonoBehaviour
     public void Freeze()
     {
         _runningSpeed = 0f;
+        _freezed = true;
     }
 
     public void UnFreeze()
     {
         _runningSpeed =_speed;
+        _freezed = false;
     }
 }
