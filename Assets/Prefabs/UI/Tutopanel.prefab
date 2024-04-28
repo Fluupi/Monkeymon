@@ -103,7 +103,7 @@ MonoBehaviour:
   - {fileID: 874994868971371445}
   _inputInteraction: {fileID: 5111783470310800601, guid: 83973fb0d10a9d54d8a0060a747ce5ba, type: 3}
   _mouseImage: {fileID: 6567321558825503473}
-  _mouseOn: {fileID: 21300000, guid: 38d9a92e6016a9c4284090ecdcd99025, type: 3}
+  _mouseOn: {fileID: 21300000, guid: 04fe4c41ad72796419ad15ab618ed22e, type: 3}
   _mouseOff: {fileID: 21300000, guid: 7ea73e7bf998edb46858c0e44eae07b4, type: 3}
   _mouseSwitchDelay: 0.75
 --- !u!1 &309202340806607228
@@ -520,7 +520,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 04fe4c41ad72796419ad15ab618ed22e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

@@ -134,63 +134,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7af3837ebc67e54992d403125d7fab4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1001 &1815361445
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 6304573508942517070, guid: a06e5027e9941dd44b086172e10c8e7a, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -1.6478007
-      objectReference: {fileID: 0}
-    - target: {fileID: 6304573508942517070, guid: a06e5027e9941dd44b086172e10c8e7a, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.42
-      objectReference: {fileID: 0}
-    - target: {fileID: 6304573508942517070, guid: a06e5027e9941dd44b086172e10c8e7a, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.16
-      objectReference: {fileID: 0}
-    - target: {fileID: 6304573508942517070, guid: a06e5027e9941dd44b086172e10c8e7a, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6304573508942517070, guid: a06e5027e9941dd44b086172e10c8e7a, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6304573508942517070, guid: a06e5027e9941dd44b086172e10c8e7a, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6304573508942517070, guid: a06e5027e9941dd44b086172e10c8e7a, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6304573508942517070, guid: a06e5027e9941dd44b086172e10c8e7a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6304573508942517070, guid: a06e5027e9941dd44b086172e10c8e7a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6304573508942517070, guid: a06e5027e9941dd44b086172e10c8e7a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6870800222612098766, guid: a06e5027e9941dd44b086172e10c8e7a, type: 3}
-      propertyPath: m_Name
-      value: Bonolady
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: a06e5027e9941dd44b086172e10c8e7a, type: 3}
 --- !u!1 &1964980296
 GameObject:
   m_ObjectHideFlags: 0
@@ -501,4 +444,3 @@ SceneRoots:
   - {fileID: 8148249585700136514}
   - {fileID: 7740078665525794636}
   - {fileID: 530533097070285913}
-  - {fileID: 1815361445}
