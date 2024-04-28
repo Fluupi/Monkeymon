@@ -52,11 +52,16 @@ public class InteractionPanel : MonoBehaviour
         StartCoroutine(Play());
     }
 
+    public void Replay()
+    {
+        StartCoroutine(Play());
+    }
+
     public IEnumerator Play()
     {
+        _enemyIllu.GetComponentInChildren<Animator>().Play("Play");
         yield return new WaitForSeconds(.5f);
         _audioSource.Play();
-        _enemyIllu.GetComponentInChildren<Animator>().Play("Play");
     }
 
     public void OnDisable()

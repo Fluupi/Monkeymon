@@ -427,9 +427,29 @@ PrefabInstance:
       propertyPath: playerMovement
       value: 
       objectReference: {fileID: 1178195595}
+    - target: {fileID: 2966748663562815262, guid: 4603ccb5052d3a1429a4feb03171d949, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -56.35115
+      objectReference: {fileID: 0}
+    - target: {fileID: 5876610725621423315, guid: 4603ccb5052d3a1429a4feb03171d949, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.0000076293945
+      objectReference: {fileID: 0}
+    - target: {fileID: 5876610725621423315, guid: 4603ccb5052d3a1429a4feb03171d949, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.000019073486
+      objectReference: {fileID: 0}
     - target: {fileID: 6189234892939280823, guid: 4603ccb5052d3a1429a4feb03171d949, type: 3}
       propertyPath: m_Name
       value: ---- Managers ----
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617533082751255429, guid: 4603ccb5052d3a1429a4feb03171d949, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 1.498169
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617533082751255429, guid: 4603ccb5052d3a1429a4feb03171d949, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 7.598419
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
