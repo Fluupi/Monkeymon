@@ -16,6 +16,7 @@ public class UIManager : Singleton<UIManager>
     [SerializeField] private AudioSource _ambiantSource;
     [SerializeField] private AudioClip _menuMusic;
     [SerializeField] private AudioClip _gameMusic;
+    [SerializeField] private float _interactionMusicVolume = 0.1f;
 
     private void Start()
     {
@@ -30,7 +31,7 @@ public class UIManager : Singleton<UIManager>
     {
         interactionPanel.Generate(monkenemy, interactionParameters);
         interactionPanel.gameObject.SetActive(true);
-        _ambiantSource.Pause();
+        _ambiantSource.volume = _interactionMusicVolume;
     }
 
     public void ShowTuto()
@@ -62,7 +63,7 @@ public class UIManager : Singleton<UIManager>
     public void HideInteractionPanel()
     {
         interactionPanel.gameObject.SetActive(false);
-        _ambiantSource.Play();
+        _ambiantSource.volume = 1.0f;
     }
 
     public void UpdateBanana()

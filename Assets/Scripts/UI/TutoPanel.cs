@@ -73,5 +73,6 @@ public class TutoPanel : MonoBehaviour
     public void EndTuto()
     {
         UIManager.Instance.HideTutoPanel();
+        _inputInteraction.action.started -= Action_started;
     }
 }

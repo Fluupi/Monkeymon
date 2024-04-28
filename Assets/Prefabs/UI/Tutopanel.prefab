@@ -105,7 +105,7 @@ MonoBehaviour:
   _mouseImage: {fileID: 6567321558825503473}
   _mouseOn: {fileID: 21300000, guid: 04fe4c41ad72796419ad15ab618ed22e, type: 3}
   _mouseOff: {fileID: 21300000, guid: 7ea73e7bf998edb46858c0e44eae07b4, type: 3}
-  _mouseSwitchDelay: 0.75
+  _mouseSwitchDelay: 0.6
 --- !u!1 &309202340806607228
 GameObject:
   m_ObjectHideFlags: 0
@@ -974,7 +974,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -2.9041138, y: 1.633606}
+  m_AnchoredPosition: {x: -2.9040527, y: 1.633606}
   m_SizeDelta: {x: 56.0809, y: 31.5456}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &9165161362446561900
