@@ -2013,6 +2013,7 @@ MonoBehaviour:
   _helpObject: {fileID: 6823199248094463386}
   _soundVisual: {fileID: 3050480303591026746}
   _resultIllu: {fileID: 6675796485929187930}
+  _inputInteraction: {fileID: -137693538287615452, guid: 83973fb0d10a9d54d8a0060a747ce5ba, type: 3}
 --- !u!82 &691587298281218635
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2354,8 +2355,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2.7396, y: -62.777763}
-  m_SizeDelta: {x: 140.8538, y: 69.579}
+  m_AnchoredPosition: {x: -6.9, y: -62.777763}
+  m_SizeDelta: {x: 136.0661, y: 69.579}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3748372097633243026
 CanvasRenderer:
@@ -2387,10 +2388,10 @@ MonoBehaviour:
       m_Calls: []
   m_text: "<color=#FF9933>aig\xFCe</color> = <color=#3399FF>agressif</color> ; <color=#FF9933>grave</color>
     = <color=#3399FF>amicale</color>;\n <color=#FF9933>longue</color> =  <color=#3399FF>excit\xE9</color>;
-    <color=#FF9933>courte</color> = <color=#3399FF>calme</color>\n\n<color=#FF9933>\xE9change
-    de fruit</color> => <color=#3399FF>agressif</color>; \n<color=#FF9933>\xE9pouillage</color>=> 
-    <color=#3399FF>calme</color>; <color=#FF9933> jeu</color> => <color=#3399FF>excit\xE9</color>,
-    \n<color=#FF9933>fuir</color> si tu as un doute."
+    <color=#FF9933>courte</color> = <color=#3399FF>calme</color>\n\n<color=#3399FF>agressif</color>
+    => <color=#FF9933>\xE9change de fruit</color> ; \n<color=#3399FF>d\xE9tendu</color>
+    => <color=#FF9933>\xE9pouillage</color> ; <color=#3399FF>joueur</color> => <color=#FF9933>
+    jeu</color>, \n<color=#FF9933>fuir</color> si tu as un doute."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a15a93c8f44601a4caa7a22b3aed9938, type: 2}
   m_sharedMaterial: {fileID: 5921541562153417305, guid: a15a93c8f44601a4caa7a22b3aed9938, type: 2}

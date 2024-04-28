@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
 public class InteractionPanel : MonoBehaviour
@@ -25,6 +26,7 @@ public class InteractionPanel : MonoBehaviour
 
     [Space]
     [SerializeField] private Image _resultIllu;
+    [SerializeField] private InputActionReference _inputInteraction;
 
     private InteractionParameters _interactionParameters = null;
     private Monkenemy _monkenemy = null;
@@ -50,6 +52,7 @@ public class InteractionPanel : MonoBehaviour
     {
         _helpObject.SetActive(false);
         StartCoroutine(Play());
+        _inputInteraction.action.started += Action_started;
     }
 
     public void Replay()
@@ -67,6 +70,7 @@ public class InteractionPanel : MonoBehaviour
     public void OnDisable()
     {
         _interactionParameters = null;
+        _inputInteraction.action.started -= Action_started;
     }
 
     public void OnPlayPressed()
@@ -117,5 +121,10 @@ public class InteractionPanel : MonoBehaviour
 
         GameManager.Instance.EndInteraction();
         _monkenemy.transform.parent.gameObject.SetActive(false);
+    }
+
+    private void Action_started(InputAction.CallbackContext obj)
+    {
+        Replay();
     }
 }

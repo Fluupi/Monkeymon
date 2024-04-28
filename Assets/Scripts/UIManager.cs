@@ -81,4 +81,9 @@ public class UIManager : Singleton<UIManager>
     {
         _textMeshPro.text = GameManager.Instance.Banana.ToString();
     }
+
+    public void OpenURL()
+    {
+        Application.OpenURL("https://dumas.ccsd.cnrs.fr/dumas-04382538");
+    }
 }

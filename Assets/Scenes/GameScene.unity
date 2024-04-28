@@ -423,85 +423,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1361034623718573801, guid: 4603ccb5052d3a1429a4feb03171d949, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -0.6000061
-      objectReference: {fileID: 0}
     - target: {fileID: 1535486255537565346, guid: 4603ccb5052d3a1429a4feb03171d949, type: 3}
       propertyPath: playerMovement
       value: 
       objectReference: {fileID: 1178195595}
-    - target: {fileID: 2115948811421747795, guid: 4603ccb5052d3a1429a4feb03171d949, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -1.5976562
-      objectReference: {fileID: 0}
-    - target: {fileID: 2966748663562815262, guid: 4603ccb5052d3a1429a4feb03171d949, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -56.351196
-      objectReference: {fileID: 0}
-    - target: {fileID: 3533756257162605200, guid: 4603ccb5052d3a1429a4feb03171d949, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -0.6000061
-      objectReference: {fileID: 0}
-    - target: {fileID: 3929688110985851756, guid: 4603ccb5052d3a1429a4feb03171d949, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0.6711426
-      objectReference: {fileID: 0}
-    - target: {fileID: 3929688110985851756, guid: 4603ccb5052d3a1429a4feb03171d949, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0.73864746
-      objectReference: {fileID: 0}
-    - target: {fileID: 5093339540276319945, guid: 4603ccb5052d3a1429a4feb03171d949, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0.33215332
-      objectReference: {fileID: 0}
-    - target: {fileID: 5876610725621423315, guid: 4603ccb5052d3a1429a4feb03171d949, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5876610725621423315, guid: 4603ccb5052d3a1429a4feb03171d949, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -0.000015258789
-      objectReference: {fileID: 0}
     - target: {fileID: 6189234892939280823, guid: 4603ccb5052d3a1429a4feb03171d949, type: 3}
       propertyPath: m_Name
       value: ---- Managers ----
-      objectReference: {fileID: 0}
-    - target: {fileID: 6725511646502008677, guid: 4603ccb5052d3a1429a4feb03171d949, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -13.799988
-      objectReference: {fileID: 0}
-    - target: {fileID: 6725511646502008677, guid: 4603ccb5052d3a1429a4feb03171d949, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 4.100006
-      objectReference: {fileID: 0}
-    - target: {fileID: 6991621614628048857, guid: 4603ccb5052d3a1429a4feb03171d949, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 1.6335449
-      objectReference: {fileID: 0}
-    - target: {fileID: 7199229107985229546, guid: 4603ccb5052d3a1429a4feb03171d949, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -98.982544
-      objectReference: {fileID: 0}
-    - target: {fileID: 7199229107985229546, guid: 4603ccb5052d3a1429a4feb03171d949, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 37.291748
-      objectReference: {fileID: 0}
-    - target: {fileID: 7617533082751255429, guid: 4603ccb5052d3a1429a4feb03171d949, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 1.498169
-      objectReference: {fileID: 0}
-    - target: {fileID: 7617533082751255429, guid: 4603ccb5052d3a1429a4feb03171d949, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 7.5983887
-      objectReference: {fileID: 0}
-    - target: {fileID: 9083124936142538621, guid: 4603ccb5052d3a1429a4feb03171d949, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -0.95532227
-      objectReference: {fileID: 0}
-    - target: {fileID: 9166135969050424209, guid: 4603ccb5052d3a1429a4feb03171d949, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 5.0266113
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
