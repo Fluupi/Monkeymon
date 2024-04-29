@@ -987,7 +987,15 @@ PrefabInstance:
     - target: {fileID: 5290793580894959839, guid: 0c5d22c8f9b48ba4ebbdd7881d8471a7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 2246342527309158798}
+      objectReference: {fileID: 1535486255537565346}
+    - target: {fileID: 5290793580894959839, guid: 0c5d22c8f9b48ba4ebbdd7881d8471a7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: StartGame
+      objectReference: {fileID: 0}
+    - target: {fileID: 5290793580894959839, guid: 0c5d22c8f9b48ba4ebbdd7881d8471a7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: GameManager, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 7102382445040353697, guid: 0c5d22c8f9b48ba4ebbdd7881d8471a7, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
