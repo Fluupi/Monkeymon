@@ -93,7 +93,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &4073795011322258451
 RectTransform:
   m_ObjectHideFlags: 0
@@ -231,11 +231,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Oh non ... Bonolady n'est pas rassasier... Elle te quitte pour aller vivre
-    avec Bonobananas et avoir autant de bananes qu'elle veut.
+  m_text: "Oh non ... Bonolady n'est pas rassasi\xE9e... Elle te quitte pour aller
+    vivre avec Bonobananas et avoir autant de bananes qu'elle veut."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: a15a93c8f44601a4caa7a22b3aed9938, type: 2}
-  m_sharedMaterial: {fileID: 5921541562153417305, guid: a15a93c8f44601a4caa7a22b3aed9938, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9bbd8b84924be23448019100d7cfab40, type: 2}
+  m_sharedMaterial: {fileID: 8614886522272089715, guid: 9bbd8b84924be23448019100d7cfab40, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -259,8 +259,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
-  m_fontSizeBase: 18
+  m_fontSize: 16
+  m_fontSizeBase: 16
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -407,7 +407,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5552929288744161045, guid: 171a7ccc70c6e684eb0835c76b7f1b03, type: 3}
       propertyPath: m_fontSize
-      value: 13.6
+      value: 13.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5552929288744161045, guid: 171a7ccc70c6e684eb0835c76b7f1b03, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 9bbd8b84924be23448019100d7cfab40, type: 2}
+    - target: {fileID: 5552929288744161045, guid: 171a7ccc70c6e684eb0835c76b7f1b03, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 8614886522272089715, guid: 9bbd8b84924be23448019100d7cfab40, type: 2}
+    - target: {fileID: 5552929288744161045, guid: 171a7ccc70c6e684eb0835c76b7f1b03, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5784493491735685690, guid: 171a7ccc70c6e684eb0835c76b7f1b03, type: 3}
       propertyPath: m_Name
@@ -416,6 +428,10 @@ PrefabInstance:
     - target: {fileID: 6488238537610167639, guid: 171a7ccc70c6e684eb0835c76b7f1b03, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6488238537610167639, guid: 171a7ccc70c6e684eb0835c76b7f1b03, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.6000061
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

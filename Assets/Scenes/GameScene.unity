@@ -414,37 +414,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1452279619544844102, guid: 4603ccb5052d3a1429a4feb03171d949, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1535486255537565346, guid: 4603ccb5052d3a1429a4feb03171d949, type: 3}
       propertyPath: playerMovement
       value: 
       objectReference: {fileID: 1178195595}
-    - target: {fileID: 2115948811421747795, guid: 4603ccb5052d3a1429a4feb03171d949, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -1.5976562
-      objectReference: {fileID: 0}
-    - target: {fileID: 2750877567887515957, guid: 4603ccb5052d3a1429a4feb03171d949, type: 3}
-      propertyPath: MaxDistance
-      value: 1.01
-      objectReference: {fileID: 0}
-    - target: {fileID: 3533756257162605200, guid: 4603ccb5052d3a1429a4feb03171d949, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -0.5999985
-      objectReference: {fileID: 0}
-    - target: {fileID: 5998560079046305801, guid: 4603ccb5052d3a1429a4feb03171d949, type: 3}
-      propertyPath: MaxDistance
-      value: 1.01
-      objectReference: {fileID: 0}
     - target: {fileID: 6189234892939280823, guid: 4603ccb5052d3a1429a4feb03171d949, type: 3}
       propertyPath: m_Name
       value: ---- Managers ----
-      objectReference: {fileID: 0}
-    - target: {fileID: 9166135969050424209, guid: 4603ccb5052d3a1429a4feb03171d949, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 5.0264893
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

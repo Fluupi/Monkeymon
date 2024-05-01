@@ -148,7 +148,7 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9bbd8b84924be23448019100d7cfab40, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -212,7 +212,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &1413978187664826982
@@ -616,7 +616,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &7102382445040353697
 RectTransform:
   m_ObjectHideFlags: 0
@@ -683,7 +683,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.85, y: 0.08}
   m_AnchorMax: {x: 0.95, y: 0.15}
-  m_AnchoredPosition: {x: -14.038696, y: 5.02652}
+  m_AnchoredPosition: {x: -14.038696, y: 5.0264893}
   m_SizeDelta: {x: 64.6226, y: 69.7741}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2120198379582080371
@@ -870,8 +870,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: a15a93c8f44601a4caa7a22b3aed9938, type: 2}
-  m_sharedMaterial: {fileID: 5921541562153417305, guid: a15a93c8f44601a4caa7a22b3aed9938, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9bbd8b84924be23448019100d7cfab40, type: 2}
+  m_sharedMaterial: {fileID: 8614886522272089715, guid: 9bbd8b84924be23448019100d7cfab40, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -895,8 +895,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 18
+  m_fontSizeBase: 18
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1006,11 +1006,11 @@ MonoBehaviour:
   m_text: "Floriane Fournier - Scientifique\n\nLinh Tran - Game Designer\n\nNicolas
     Delucinge - Artiste 3D\nJoseph Heretynski - Artiste 2D / Animateur\nTom Zinck
     - Sound Designer / Compositeur\n\nLuca Floreau - Programmeur\nJulia Jomain -
-    Programmeuse\n\nFonts Info Story et Jhai Muri - Khurasan\nShader \"Toony Colors
+    Programmeuse\n\nFonts Abalone Smile et Jhai Muri - Khurasan\nShader \"Toony Colors
     Free\" - Jean Moreno\n\nJeu cr\xE9e en 48h pendant la "
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: a15a93c8f44601a4caa7a22b3aed9938, type: 2}
-  m_sharedMaterial: {fileID: 5921541562153417305, guid: a15a93c8f44601a4caa7a22b3aed9938, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9bbd8b84924be23448019100d7cfab40, type: 2}
+  m_sharedMaterial: {fileID: 8614886522272089715, guid: 9bbd8b84924be23448019100d7cfab40, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1034,10 +1034,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 16
-  m_fontSizeBase: 14.93
+  m_fontSize: 12.5
+  m_fontSizeBase: 12.5
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 16
   m_fontStyle: 0
@@ -1498,11 +1498,11 @@ PrefabInstance:
       objectReference: {fileID: 4419021473157577799}
     - target: {fileID: 2737717971410171777, guid: 595561d1a58472843a61a5e7f99adbd3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ShowTuto
+      value: StartGame
       objectReference: {fileID: 0}
     - target: {fileID: 2737717971410171777, guid: 595561d1a58472843a61a5e7f99adbd3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: UIManager, Assembly-CSharp
+      value: GameManager, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6393897057058684428, guid: 595561d1a58472843a61a5e7f99adbd3, type: 3}
       propertyPath: m_Pivot.x
@@ -1570,7 +1570,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6393897057058684428, guid: 595561d1a58472843a61a5e7f99adbd3, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -1.5976715
+      value: -1.5976562
       objectReference: {fileID: 0}
     - target: {fileID: 6393897057058684428, guid: 595561d1a58472843a61a5e7f99adbd3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

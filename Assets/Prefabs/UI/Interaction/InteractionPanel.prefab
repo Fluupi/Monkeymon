@@ -109,7 +109,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.6286011, y: 10.593501}
+  m_AnchoredPosition: {x: 2.4, y: 13.8}
   m_SizeDelta: {x: 166.89305, y: 109.97296}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &497731646058522332
@@ -142,8 +142,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Fuire
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: a15a93c8f44601a4caa7a22b3aed9938, type: 2}
-  m_sharedMaterial: {fileID: 5921541562153417305, guid: a15a93c8f44601a4caa7a22b3aed9938, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9bbd8b84924be23448019100d7cfab40, type: 2}
+  m_sharedMaterial: {fileID: 8614886522272089715, guid: 9bbd8b84924be23448019100d7cfab40, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -247,7 +247,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.26550332, y: 0}
   m_AnchorMax: {x: 0.7482054, y: 0.5}
-  m_AnchoredPosition: {x: -98.98253, y: 37.291798}
+  m_AnchoredPosition: {x: -98.982544, y: 37.291748}
   m_SizeDelta: {x: -204.79953, y: -136.79245}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3284879441429780680
@@ -2036,7 +2036,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 1.01
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -2176,10 +2176,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Jouez
+  m_text: Jouer
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: a15a93c8f44601a4caa7a22b3aed9938, type: 2}
-  m_sharedMaterial: {fileID: 5921541562153417305, guid: a15a93c8f44601a4caa7a22b3aed9938, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9bbd8b84924be23448019100d7cfab40, type: 2}
+  m_sharedMaterial: {fileID: 8614886522272089715, guid: 9bbd8b84924be23448019100d7cfab40, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2413,11 +2413,11 @@ MonoBehaviour:
     = <color=#3399FF>amicale</color>;\n <color=#FF9933>longue</color> =  <color=#3399FF>excit\xE9</color>;
     <color=#FF9933>courte</color> = <color=#3399FF>calme</color>\n\n<color=#3399FF>agressif</color>
     => <color=#FF9933>\xE9changez un fruit</color> ; \n<color=#3399FF>d\xE9tendu</color>
-    => <color=#FF9933>\xE9pouillez</color> ; <color=#3399FF>joueur</color> => <color=#FF9933>
-    jouer</color>, \n<color=#FF9933>fuire</color> si tu as un doute."
+    => <color=#FF9933>\xE9pouillez</color>; <color=#3399FF>joueur</color> => <color=#FF9933>
+    jouez</color>, \n<color=#FF9933>fuire</color> si tu as un doute."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: a15a93c8f44601a4caa7a22b3aed9938, type: 2}
-  m_sharedMaterial: {fileID: 5921541562153417305, guid: a15a93c8f44601a4caa7a22b3aed9938, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9bbd8b84924be23448019100d7cfab40, type: 2}
+  m_sharedMaterial: {fileID: 8614886522272089715, guid: 9bbd8b84924be23448019100d7cfab40, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2441,8 +2441,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 9
-  m_fontSizeBase: 9
+  m_fontSize: 8
+  m_fontSizeBase: 8
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 5
@@ -2517,7 +2517,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.5451431, y: -0.7948761}
+  m_AnchoredPosition: {x: 0.5451431, y: 2.4}
   m_SizeDelta: {x: 146.01308, y: 90.06575}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7048562408478223243
@@ -2548,10 +2548,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Echangez un fruit
+  m_text: "\xC9changer un fruit"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: a15a93c8f44601a4caa7a22b3aed9938, type: 2}
-  m_sharedMaterial: {fileID: 5921541562153417305, guid: a15a93c8f44601a4caa7a22b3aed9938, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9bbd8b84924be23448019100d7cfab40, type: 2}
+  m_sharedMaterial: {fileID: 8614886522272089715, guid: 9bbd8b84924be23448019100d7cfab40, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2759,7 +2759,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000015258789, y: 15.267998}
+  m_AnchoredPosition: {x: -5, y: 19.9}
   m_SizeDelta: {x: 163.198, y: 109.97478}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8057121914775714617
@@ -2790,10 +2790,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Epouilez
+  m_text: "\xC9pouiller"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: a15a93c8f44601a4caa7a22b3aed9938, type: 2}
-  m_sharedMaterial: {fileID: 5921541562153417305, guid: a15a93c8f44601a4caa7a22b3aed9938, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9bbd8b84924be23448019100d7cfab40, type: 2}
+  m_sharedMaterial: {fileID: 8614886522272089715, guid: 9bbd8b84924be23448019100d7cfab40, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
