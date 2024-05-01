@@ -12,6 +12,7 @@ public class InteractionPanel : MonoBehaviour
     [SerializeField] private GameObject _playInteractionPanel;
     [SerializeField] private Image _enemyIllu;
     [SerializeField] private Image _playerIllu;
+    [SerializeField] private Animator _soundIllu;
 
     [Space]
     [SerializeField] private Button _playButton;
@@ -63,6 +64,10 @@ public class InteractionPanel : MonoBehaviour
     public IEnumerator Play()
     {
         _enemyIllu.GetComponentInChildren<Animator>().Play("Play");
+        if (_soundIllu.gameObject.activeInHierarchy)
+        {
+            _soundIllu.Play("Play");
+        }
         yield return new WaitForSeconds(.5f);
         _audioSource.Play();
     }
