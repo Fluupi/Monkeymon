@@ -6,7 +6,8 @@ using UnityEngine.UI;
 
 public class TutoPanel : MonoBehaviour
 {
-    [SerializeField] private List<GameObject> _tuto;
+    [SerializeField] private List<GameObject> _tutoIntro;
+    [SerializeField] private List<GameObject> _tutoRepetition;
     [SerializeField] private InputActionReference _inputInteraction;
 
     [SerializeField] private Image _mouseImage;
@@ -17,15 +18,17 @@ public class TutoPanel : MonoBehaviour
 
     private int i = 0;
 
-    private void Start()
+    private List<GameObject> _currentTuto = null;
+
+    private void Awake()
     {
-       // _inputInteraction.action.started += Action_started;
+        _currentTuto = _tutoIntro;
     }
 
     public void OnEnable()
     {
         i = 0;
-        _tuto[i].SetActive(true);
+        _currentTuto[i].SetActive(true);
 
         StartCoroutine(PlayMouse());
     }
@@ -53,16 +56,16 @@ public class TutoPanel : MonoBehaviour
 
     public void Next()
     {
-        if (i >= _tuto.Count)
+        if (i >= _currentTuto.Count)
         {
             EndTuto();
             return;
         }
-        _tuto[i].SetActive(false);
+        _currentTuto[i].SetActive(false);
         i++;
-        if (i < _tuto.Count)
+        if (i < _currentTuto.Count)
         {
-            _tuto[i].SetActive(true);
+            _currentTuto[i].SetActive(true);
         }
         else
         {
@@ -72,6 +75,7 @@ public class TutoPanel : MonoBehaviour
 
     public void EndTuto()
     {
+        _currentTuto = _tutoRepetition;
         UIManager.Instance.HideTutoPanel();
         _inputInteraction.action.started -= Action_started;
     }
