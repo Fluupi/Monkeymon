@@ -18,7 +18,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &6394884099887787723
 RectTransform:
   m_ObjectHideFlags: 0
@@ -591,7 +591,7 @@ MonoBehaviour:
   m_text: "<b>Il te reste encore des singes \xE0 rencontrer ! </b>"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9bbd8b84924be23448019100d7cfab40, type: 2}
-  m_sharedMaterial: {fileID: 5921541562153417305, guid: a15a93c8f44601a4caa7a22b3aed9938, type: 2}
+  m_sharedMaterial: {fileID: 8614886522272089715, guid: 9bbd8b84924be23448019100d7cfab40, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1363,7 +1363,7 @@ MonoBehaviour:
     Si elle est <color=#FF9933>grave</color>, le singe est <color=#3399FF>amicale</color>."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9bbd8b84924be23448019100d7cfab40, type: 2}
-  m_sharedMaterial: {fileID: 5921541562153417305, guid: a15a93c8f44601a4caa7a22b3aed9938, type: 2}
+  m_sharedMaterial: {fileID: 8614886522272089715, guid: 9bbd8b84924be23448019100d7cfab40, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
