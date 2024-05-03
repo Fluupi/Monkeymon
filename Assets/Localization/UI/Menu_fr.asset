@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Menu_fr
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: fr
+  m_SharedData: {fileID: 11400000, guid: 4abfef580d013e6468971491c4de4c4a, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 6703587328
+    m_Localized: "Floriane Fournier - Scientifique\r\n\r\nLinh Tran - Game Designer\r\n\r\nNicolas
+      Delucinge - Artiste 3D\r\nJoseph Heretynski - Artiste 2D / Animateur\r\nTom
+      Zinck - Sound Designer / Compositeur\r\n\r\nLuca Floreau - Programmeur\r\nJulia
+      Jomain - Programmeuse\r\n\r\nFonts Abalone Smile et Jhai Muri - Khurasan\r\nShader
+      \"Toony Colors Free\" - Jean Moreno\r\n\r\nJeu cr\xE9\xE9 en 48h pendant la"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3533073063936
+    m_Localized: Recommencer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4087392280576
+    m_Localized: "F\xE9liciations tu as r\xE9ussi \xE0 ramener assez de bananes pour
+      que Bonolady soit satisfaite ! Oh mais attends ...\nLe b\xE9b\xE9 arrive !!!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4113355022336
+    m_Localized: "Oh non ... Bonolady n'est pas rassasi\xE9e... Elle te quitte pour
+      aller vivre avec Bonobananas et avoir autant de bananes qu'elle veut."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8819259252736
+    m_Localized: 'Menu
+
+      Principal'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8969251758080
+    m_Localized: "Cr\xE9dits"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

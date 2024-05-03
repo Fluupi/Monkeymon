@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Intro&Tuto_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 0dfa2c206f458e64b973e1452ed67764, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 56892628992
+    m_Localized: "<i>Bonolady and Bonobuddy have just gotten married and are moving
+      into Bonolady's clan.\r\nBonolady is pregnant and hungry, she wants Bonobuddy
+      to go get her some bananas.\r</i>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 207078072320
+    m_Localized: <i>However, this is a new band for Bonobuddy. Bonolady will explain
+      to him their rules of communication.</i>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1329238941696
+    m_Localized: <b>You still have monkeys to meet !</b>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1014968131584
+    m_Localized: 'All the bonobos can give you bananas but you will have to respond
+      with the <b>good deed</b> to their vocalizations.
+
+      When the vocalization
+      is <color=#FF9933>high-pitched</color>, the monkey in front is <color=#3399FF>aggressive</color>.
+      If it is <color=#FF9933>serious</color>, the monkey is <color=#3399FF>friendly</color>.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1156400062464
+    m_Localized: When the vocalization is <color=#FF9933>long</color>, the monkey
+      in front is <color=#3399FF>excited</color>. If it is <color=#FF9933>short</color>,
+      the monkey is <color=#3399FF>calm</color>.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1170492923904
+    m_Localized: If you need help analyzing sounds, you can <b>press on my image</b>
+      during your meetings with the members of the clan. I will provide you with
+      a <b>schematic representation</b> of their vocalizations.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1199655919616
+    m_Localized: 'You can respond to their vocalization with 4 actions: an <color=#FF9933>exchange
+      of fruit</color> in order to appease a bonobo that appears <color=#3399FF>aggressive</color>,
+      a <color=#FF9933 >delousing</color> to develop friendship in a <color=#3399FF>calm</color>
+      context, a <color=#FF9933> game</color> to have fun with a monkey <color=#3399FF
+      >excited</color>, or run away if you have any doubts.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1214948352000
+    m_Localized: 'But be careful, you risk dropping a banana on the way by fleeing
+      the conversation.
+
+      If you do the right thing, you can win bananas. If
+      you make a mistake, he will attack you and steal bananas from your reserve.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1226461716480
+    m_Localized: 'If you no longer remember my advice, you can come back to the cabin
+      at any time so that I can explain it to you again.
+
+      Here are 3 bananas
+      to start the game!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2679230210048
+    m_Localized: 'Bring me as many bananas as possible.
+
+      <b>Come back to me
+      when you have met all the monkeys.</b>
+
+      Good luck !!'
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

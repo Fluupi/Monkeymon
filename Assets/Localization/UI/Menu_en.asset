@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Menu_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 4abfef580d013e6468971491c4de4c4a, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 6703587328
+    m_Localized: 'Floriane Fournier - Scientist
+
+
+      Linh Tran - Game Designer
+
+
+      Nicolas
+      Delucinge - 3D Artist
+
+      Joseph Heretynski - 2D Artist / Animator
+
+      Tom
+      Zinck - Sound Designer / Composer
+
+
+      Luca Floreau - Programmer
+
+      Julia
+      Jomain - Programmer
+
+
+      Abalone Smile and Jhai Muri Fonts - Khurasan
+
+      Shader
+      "Toony Colors Free" - Jean Moreno
+
+
+      Game created in 48 hours during the'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3533073063936
+    m_Localized: Restart
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4087392280576
+    m_Localized: 'Congratulations, you managed to bring back enough bananas to keep
+      Bonolady satisfied! Oh but wait...
+
+      The baby is coming!!!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4113355022336
+    m_Localized: Oh no... Bonolady isn't satisfied... She's leaving you to go live
+      with Bonobananas and have as many bananas as she wants.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8819259252736
+    m_Localized: 'Main
+
+      Menu'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8969251758080
+    m_Localized: Credits
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

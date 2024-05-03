@@ -254,6 +254,7 @@ GameObject:
   - component: {fileID: 3851053187252472462}
   - component: {fileID: 4160189961791809311}
   - component: {fileID: 4536732039728794922}
+  - component: {fileID: 3937195116311202257}
   m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -378,6 +379,46 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &3937195116311202257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5946933137221391871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:4abfef580d013e6468971491c4de4c4a
+    m_TableEntryReference:
+      m_KeyId: 4087392280576
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4536732039728794922}
+        m_TargetAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  references:
+    version: 2
+    RefIds: []
 --- !u!1 &6569700026217068372
 GameObject:
   m_ObjectHideFlags: 0
@@ -576,8 +617,67 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7865094209890198714, guid: 171a7ccc70c6e684eb0835c76b7f1b03, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8956542709657006033}
   m_SourcePrefab: {fileID: 100100000, guid: 171a7ccc70c6e684eb0835c76b7f1b03, type: 3}
+--- !u!1 &208560969481958663 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7865094209890198714, guid: 171a7ccc70c6e684eb0835c76b7f1b03, type: 3}
+  m_PrefabInstance: {fileID: 8053166877503328701}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8956542709657006033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 208560969481958663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:4abfef580d013e6468971491c4de4c4a
+    m_TableEntryReference:
+      m_KeyId: 3533073063936
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2507783025571552936}
+        m_TargetAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  references:
+    version: 2
+    RefIds: []
+--- !u!114 &2507783025571552936 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5552929288744161045, guid: 171a7ccc70c6e684eb0835c76b7f1b03, type: 3}
+  m_PrefabInstance: {fileID: 8053166877503328701}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 208560969481958663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &8849450809499279623 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1516877464913604794, guid: 171a7ccc70c6e684eb0835c76b7f1b03, type: 3}

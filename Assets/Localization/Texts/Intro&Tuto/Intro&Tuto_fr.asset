@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Intro&Tuto_fr
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: fr
+  m_SharedData: {fileID: 11400000, guid: 0dfa2c206f458e64b973e1452ed67764, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 56892628992
+    m_Localized: "<i>Bonolady et Bonobuddy viennent de se marier et emm\xE9nagent
+      dans le clan de Bonolady.\nBonolady est enceinte et a une fringale, elle veut
+      que Bonobuddy aille lui chercher des bananes.</i>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 207078072320
+    m_Localized: "<i>Cependant, c'est un nouveau groupe pour Bonobuddy. Bonolady
+      va lui expliquer leurs r\xE8gles de communication.</i>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1329238941696
+    m_Localized: "<b>Il te reste encore des singes \xE0 rencontrer ! </b>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1014968131584
+    m_Localized: "Tous les bonobos peuvent te donner des bananes mais il faudra r\xE9pondre
+      par la <b>bonne action</b> \xE0 leurs vocalisations.\nQuand la vocalisation
+      est <color=#FF9933>aig\xFCe</color>, le singe en face est <color=#3399FF>agressif</color>.
+      Si elle est <color=#FF9933>grave</color>, le singe est <color=#3399FF>amicale</color>."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1156400062464
+    m_Localized: "Quand la vocalisation est <color=#FF9933>longue</color>, le singe
+      en face est  <color=#3399FF>excit\xE9</color>.  Si elle est <color=#FF9933>courte</color>
+      , le singe est <color=#3399FF>calme</color>."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1170492923904
+    m_Localized: "Si tu as besoin d'un coup de patte pour l'analyse des sons, tu
+      peux <b>appuyer sur mon image</b> durant tes rencontres avec les membres du
+      clan. Je te fournirais une <b>repr\xE9sentation sch\xE9matique</b> de leurs
+      vocalisations."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1199655919616
+    m_Localized: "Tu pourras r\xE9pondre \xE0 leur vocalisation par 4 actions: un
+      <color=#FF9933>\xE9change de fruit</color> afin d'apaiser un bonobo qui para\xEEtrait
+      <color=#3399FF>agressif</color>, un <color=#FF9933>\xE9pouillage</color> pour
+      d\xE9velopper l'amiti\xE9 dans un contexte <color=#3399FF>calme</color>, un<color=#FF9933>
+      jeu</color> pour t'amuser avec un singe <color=#3399FF>excit\xE9</color>, ou
+      bien fuir si tu as un doute."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1214948352000
+    m_Localized: "Mais attention, tu risques de faire tomber une banane sur le chemin
+      en fuyant la conversation.\nSi tu agis de la bonne fa\xE7on, tu pourras remporter
+      des bananes. En cas d'erreur, il t'attaquera et te volera des bananes dans
+      ta r\xE9serve. "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1226461716480
+    m_Localized: "Si tu ne te souviens plus de mes conseils, tu peux revenir \xE0
+      tout moment \xE0 la cabanne pour que je te r\xE9explique.\nVoici 3 bananes
+      pour commencer la partie !"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2679230210048
+    m_Localized: "Ram\xE8ne-moi le plus de bananes. \n<b>Reviens me voir quand tu
+      auras rencontr\xE9 tous les singes.</b>\nBonne chance !!"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

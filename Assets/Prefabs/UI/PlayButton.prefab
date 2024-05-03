@@ -147,6 +147,7 @@ GameObject:
   - component: {fileID: 7339735489822978924}
   - component: {fileID: 2737717971410171777}
   - component: {fileID: 3750101788775002361}
+  - component: {fileID: 9105880034915535489}
   m_Layer: 5
   m_Name: PlayButton
   m_TagString: Untagged
@@ -301,3 +302,44 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &9105880034915535489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8172846752233321942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69beb381e244f92449b8c4cf954630e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TrackedObjects:
+  - rid: 2063883467759550562
+  references:
+    version: 2
+    RefIds:
+    - rid: 2063883467759550562
+      type: {class: TrackedUGuiGraphic, ns: UnityEngine.Localization.PropertyVariants.TrackedObjects, asm: Unity.Localization}
+      data:
+        m_Target: {fileID: 7339735489822978924}
+        m_TrackedProperties:
+          items:
+          - rid: 2063883467759550563
+        m_UpdateType: 0
+    - rid: 2063883467759550563
+      type: {class: LocalizedAssetProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
+      data:
+        m_Localized:
+          rid: 2063883467759550564
+        m_PropertyPath: m_Sprite
+    - rid: 2063883467759550564
+      type: {class: LocalizedSprite, ns: UnityEngine.Localization, asm: Unity.Localization}
+      data:
+        m_TableReference:
+          m_TableCollectionName: GUID:19800092a4cba5442ae15324e384302a
+        m_TableEntryReference:
+          m_KeyId: 12080685056
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0

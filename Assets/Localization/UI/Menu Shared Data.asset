@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Menu Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Menu
+  m_TableCollectionNameGuidString: 4abfef580d013e6468971491c4de4c4a
+  m_Entries:
+  - m_Id: 6703587328
+    m_Key: "Cr\xE9dits"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3533073063936
+    m_Key: Recommencer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4087392280576
+    m_Key: Victoire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4113355022336
+    m_Key: Echec
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8819259252736
+    m_Key: Bouton Menu Principal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8969251758080
+    m_Key: "Bouton Cr\xE9dits"
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 2063883467759550571
+  references:
+    version: 2
+    RefIds:
+    - rid: 2063883467759550571
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1714770922926

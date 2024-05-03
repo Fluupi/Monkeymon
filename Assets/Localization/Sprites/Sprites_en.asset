@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97269afb30aa84742ae3f3342603618a, type: 3}
+  m_Name: Sprites_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 19800092a4cba5442ae15324e384302a, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 12080685056
+    m_Localized: 8075afaf9e6cc554cb0df95c92fbb6ad[Ecran titre JOUER]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92368052224
+    m_Localized: 7055a2d0a1690c0408ede05a619917ce[Ecran titre CREDITS]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1232950304768
+    m_Localized: 3fcc9562e738a974f9aed4dddd92163a[Ecran titre En savoir plus]
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
