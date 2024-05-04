@@ -9,11 +9,14 @@ public class GameManager : Singleton<GameManager>
     [SerializeField] private PlayerMovement playerMovement;
     [SerializeField] private UIManager uiManager;
     [SerializeField] private int BananaDelta = 2;
-    [SerializeField] private int BananaGoal = 15;
-    [SerializeField] private int InteractionMax = 3;
+    [SerializeField] private int BananaGoal = 5;
+    [SerializeField] private int _interactionMax = 3;
 
     private int _interaction = 0;
     private int _banana = 3;
+
+    public int CurrentInteraction => _interaction;
+    public int InteractionMax => _interactionMax;
 
     public int Banana { get => _banana; }
 
@@ -39,7 +42,7 @@ public class GameManager : Singleton<GameManager>
         }
         else if (monkenemy is Bonolady _)
         {
-            if (_interaction < InteractionMax)
+            if (_interaction < _interactionMax)
             {
                 uiManager.ShowTuto();
             }

@@ -51,7 +51,7 @@ public class InteractionPanel : MonoBehaviour
 
     public void OnEnable()
     {
-        _helpObject.SetActive(false);
+        _helpObject.SetActive(GameManager.Instance.CurrentInteraction > GameManager.Instance.InteractionMax / 2);
         StartCoroutine(Play());
         _inputInteraction.action.started += Action_started;
     }
