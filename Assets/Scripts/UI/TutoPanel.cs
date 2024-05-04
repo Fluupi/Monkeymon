@@ -14,6 +14,7 @@ public class TutoPanel : MonoBehaviour
     [SerializeField] private Sprite _mouseOn;
     [SerializeField] private Sprite _mouseOff;
     [SerializeField] private float _mouseSwitchDelay;
+    [SerializeField] private Image _bonolady;
     private bool _mouseRunning;
 
     private int i = 0;
@@ -27,6 +28,9 @@ public class TutoPanel : MonoBehaviour
 
     public void OnEnable()
     {
+        if (_currentTuto == _tutoIntro)
+            _bonolady.gameObject.SetActive(false);
+
         i = 0;
         _currentTuto[i].SetActive(true);
 
@@ -56,6 +60,9 @@ public class TutoPanel : MonoBehaviour
 
     public void Next()
     {
+        if (i == 1 && _currentTuto == _tutoIntro)
+            _bonolady.gameObject.SetActive(true);
+
         if (i >= _currentTuto.Count)
         {
             EndTuto();

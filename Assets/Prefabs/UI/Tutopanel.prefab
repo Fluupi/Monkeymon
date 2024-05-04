@@ -95,9 +95,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _tutoIntro:
   - {fileID: 5413516271462475833}
-  - {fileID: 7087353784713884153}
   - {fileID: 1866784321822170107}
-  - {fileID: 7475300243196176396}
   - {fileID: 4593169105202080525}
   - {fileID: 7026462409771967444}
   - {fileID: 8247310251884962575}
@@ -106,7 +104,6 @@ MonoBehaviour:
   _tutoRepetition:
   - {fileID: 8632282391456126412}
   - {fileID: 1866784321822170107}
-  - {fileID: 7475300243196176396}
   - {fileID: 4593169105202080525}
   - {fileID: 7026462409771967444}
   - {fileID: 8247310251884962575}
@@ -117,6 +114,7 @@ MonoBehaviour:
   _mouseOn: {fileID: 21300000, guid: 04fe4c41ad72796419ad15ab618ed22e, type: 3}
   _mouseOff: {fileID: 21300000, guid: 7ea73e7bf998edb46858c0e44eae07b4, type: 3}
   _mouseSwitchDelay: 0.6
+  _bonolady: {fileID: 8429612168118453291}
 --- !u!1 &1607106748264140302
 GameObject:
   m_ObjectHideFlags: 0
@@ -740,11 +738,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73c376f5e63803d4693271c1c9354c94, type: 3}
---- !u!1 &7475300243196176396 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7824071753609750952, guid: 73c376f5e63803d4693271c1c9354c94, type: 3}
-  m_PrefabInstance: {fileID: 804233628011381156}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &8875814219626513394 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8071589870960230998, guid: 73c376f5e63803d4693271c1c9354c94, type: 3}
@@ -970,11 +963,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73c376f5e63803d4693271c1c9354c94, type: 3}
---- !u!1 &7087353784713884153 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7824071753609750952, guid: 73c376f5e63803d4693271c1c9354c94, type: 3}
-  m_PrefabInstance: {fileID: 1067345935274055761}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &9136665932520643079 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8071589870960230998, guid: 73c376f5e63803d4693271c1c9354c94, type: 3}
