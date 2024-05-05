@@ -34,12 +34,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1014968131584
-    m_Localized: 'All the bonobos can give you bananas but you will have to respond
+    m_Localized: All the bonobos can give you bananas but you will have to respond
       with the <b>good deed</b> to their vocalizations.
-
-      When the vocalization
-      is <color=#FF9933>high-pitched</color>, the monkey in front is <color=#3399FF>aggressive</color>.
-      If it is <color=#FF9933>serious</color>, the monkey is <color=#3399FF>friendly</color>.'
     m_Metadata:
       m_Items: []
   - m_Id: 1156400062464

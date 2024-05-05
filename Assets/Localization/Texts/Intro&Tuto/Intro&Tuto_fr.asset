@@ -35,9 +35,7 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 1014968131584
     m_Localized: "Tous les bonobos peuvent te donner des bananes mais il faudra r\xE9pondre
-      par la <b>bonne action</b> \xE0 leurs vocalisations.\nQuand la vocalisation
-      est <color=#FF9933>aig\xFCe</color>, le singe en face est <color=#3399FF>agressif</color>.
-      Si elle est <color=#FF9933>grave</color>, le singe est <color=#3399FF>amicale</color>."
+      par la <b>bonne action</b> \xE0 leurs vocalisations."
     m_Metadata:
       m_Items: []
   - m_Id: 1156400062464
@@ -49,7 +47,7 @@ MonoBehaviour:
   - m_Id: 1170492923904
     m_Localized: "Si tu as besoin d'un coup de patte pour l'analyse des sons, tu
       peux <b>appuyer sur mon image</b> durant tes rencontres avec les membres du
-      clan. Je te fournirais une <b>repr\xE9sentation sch\xE9matique</b> de leurs
+      clan. Je te fournirai une <b>repr\xE9sentation sch\xE9matique</b> de leurs
       vocalisations."
     m_Metadata:
       m_Items: []
@@ -71,8 +69,8 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 1226461716480
     m_Localized: "Si tu ne te souviens plus de mes conseils, tu peux revenir \xE0
-      tout moment \xE0 la cabanne pour que je te r\xE9explique.\nVoici 3 bananes
-      pour commencer la partie !"
+      tout moment \xE0 la cabane pour que je te r\xE9explique.\nVoici 3 bananes pour
+      commencer la partie !"
     m_Metadata:
       m_Items: []
   - m_Id: 2679230210048

@@ -60,7 +60,7 @@ public class TutoPanel : MonoBehaviour
 
     public void Next()
     {
-        if (i == 1 && _currentTuto == _tutoIntro)
+        if (i == 0 && _currentTuto == _tutoIntro)
             _bonolady.gameObject.SetActive(true);
 
         if (i >= _currentTuto.Count)
