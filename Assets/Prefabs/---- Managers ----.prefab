@@ -48,8 +48,8 @@ MonoBehaviour:
   playerMovement: {fileID: 0}
   uiManager: {fileID: 2246342527309158798}
   BananaDelta: 2
-  BananaGoal: 12
-  _interactionMax: 3
+  BananaGoal: 10
+  _interactionMax: 10
 --- !u!1 &3514592314211375929
 GameObject:
   m_ObjectHideFlags: 0
