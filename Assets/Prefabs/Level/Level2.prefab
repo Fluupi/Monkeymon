@@ -85,7 +85,8 @@ PrefabInstance:
       value: Lowpoly jungle_MAP2_EXPORT_V001
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: -1650581058900030526, guid: 5feb5c6a5d385d6409345b621fdbdc7c, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5feb5c6a5d385d6409345b621fdbdc7c, type: 3}

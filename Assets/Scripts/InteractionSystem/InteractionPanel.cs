@@ -128,7 +128,7 @@ public class InteractionPanel : MonoBehaviour
         _playInteractionPanel.SetActive(true);
 
         GameManager.Instance.EndInteraction();
-        _monkenemy.transform.parent.gameObject.SetActive(false);
+        _monkenemy.GetComponent<Monkenemy>().HideMonkeyAndBananas();
     }
 
     private void Action_started(InputAction.CallbackContext obj)
