@@ -16,7 +16,13 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: 9b08303ede4148049951bcf7cb7846d3
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: 7055a2d0a1690c0408ede05a619917ce
+    m_Address: Ecran titre CREDITS
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 32e48a2d36b9b8a40b901f6a1cbdf9de, type: 2}
   m_SchemaSet:

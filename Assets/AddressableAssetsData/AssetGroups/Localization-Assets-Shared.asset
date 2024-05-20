@@ -39,13 +39,6 @@ MonoBehaviour:
     - Locale-fr
     - Locale-en
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 7055a2d0a1690c0408ede05a619917ce
-    m_Address: Ecran titre CREDITS
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-fr
-    - Locale-en
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 3fcc9562e738a974f9aed4dddd92163a
     m_Address: Ecran titre En savoir plus
     m_ReadOnly: 1
