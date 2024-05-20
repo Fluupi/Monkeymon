@@ -51,8 +51,9 @@ public class InteractionPanel : MonoBehaviour
 
     public void OnEnable()
     {
+        bool forceHelp = GameManager.Instance.CurrentInteraction < GameManager.Instance.InteractionMax / 2;
         _helpButton.gameObject.SetActive(true);
-        _helpObject.SetActive(GameManager.Instance.CurrentInteraction < GameManager.Instance.InteractionMax / 2);
+        _helpObject.SetActive(forceHelp);
         StartCoroutine(Play());
         _inputInteraction.action.started += Action_started;
     }
@@ -103,6 +104,11 @@ public class InteractionPanel : MonoBehaviour
     {
         _helpObject.SetActive(true);
         StartCoroutine(Play());
+    }
+
+    public void OnReplayPressed()
+    {
+        StartCoroutine(Play()); 
     }
 
     public void PlayAnswer(InteractionAnswer answer)

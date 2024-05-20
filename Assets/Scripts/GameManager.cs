@@ -28,6 +28,7 @@ public class GameManager : Singleton<GameManager>
     public void StartGame()
     {
         UIManager.Instance.UpdateBanana();
+        UIManager.Instance.UpdateEncounter();
         UIManager.Instance.ShowTuto();
     }
 
@@ -65,6 +66,7 @@ public class GameManager : Singleton<GameManager>
     {
         _interaction++;
         uiManager.HideInteractionPanel();
+        UIManager.Instance.UpdateEncounter();
         UnFreeze();
     }
 

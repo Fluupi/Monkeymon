@@ -15,7 +15,8 @@ public class UIManager : Singleton<UIManager>
     [SerializeField] private Button winBaseButton = null;
     [SerializeField] private GameObject loosePanel = null;
     [SerializeField] private Button looseBaseButton = null;
-    [SerializeField] private TextMeshProUGUI _textMeshPro = null;
+    [SerializeField] private TextMeshProUGUI _bananaCounterText = null;
+    [SerializeField] private TextMeshProUGUI _encounterCounterText = null;
     [SerializeField] private GameObject _startMenu = null;
     [SerializeField] private Button menuBaseButton = null;
 
@@ -79,7 +80,12 @@ public class UIManager : Singleton<UIManager>
 
     public void UpdateBanana()
     {
-        _textMeshPro.text = GameManager.Instance.Banana.ToString();
+        _bananaCounterText.text = GameManager.Instance.Banana.ToString();
+    }
+
+    public void UpdateEncounter()
+    {
+        _encounterCounterText.text = GameManager.Instance.CurrentInteraction.ToString();
     }
 
     public void OpenURL()
