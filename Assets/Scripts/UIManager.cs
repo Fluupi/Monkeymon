@@ -19,6 +19,8 @@ public class UIManager : Singleton<UIManager>
     [SerializeField] private TextMeshProUGUI _encounterCounterText = null;
     [SerializeField] private GameObject _startMenu = null;
     [SerializeField] private Button menuBaseButton = null;
+    [SerializeField] private Image _hutImage = null;
+    [SerializeField] private Image _hutArrow = null;
 
     [SerializeField] private AudioSource _ambiantSource;
     [SerializeField] private AudioClip _menuMusic;
@@ -33,6 +35,8 @@ public class UIManager : Singleton<UIManager>
         winPanel.SetActive(false);
         loosePanel.SetActive(false);
         menuBaseButton.Select();
+        _hutImage.gameObject.SetActive(false);
+        _hutArrow.gameObject.SetActive(false);
     }
 
     public void ShowInteraction(Monkenemy monkenemy, InteractionParameters interactionParameters)
@@ -78,14 +82,22 @@ public class UIManager : Singleton<UIManager>
         _ambiantSource.volume = 1.0f;
     }
 
-    public void UpdateBanana()
+    public void UpdateBanana(int bananas)
     {
-        _bananaCounterText.text = GameManager.Instance.Banana.ToString();
+        _bananaCounterText.text = bananas.ToString();
     }
 
-    public void UpdateEncounter()
+    public void UpdateEncounter(int interactions)
     {
-        _encounterCounterText.text = GameManager.Instance.CurrentInteraction.ToString();
+        _encounterCounterText.text = interactions.ToString();
+        if (GameManager.Instance.HasEnoughInteractions)
+            HutUpdate(GameManager.Instance.HasEnoughBananas);
+    }
+
+    private void HutUpdate(bool enoughBananas)
+    {
+        _hutImage.gameObject.SetActive(true);
+        _hutArrow.gameObject.SetActive(enoughBananas);
     }
 
     public void OpenURL()

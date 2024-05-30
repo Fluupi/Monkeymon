@@ -18,6 +18,9 @@ public class GameManager : Singleton<GameManager>
     public int CurrentInteraction => _interaction;
     public int InteractionMax => _interactionMax;
 
+    public bool HasEnoughInteractions => _interaction >= _interactionMax;
+    public bool HasEnoughBananas => _banana >= BananaGoal;
+
     public int Banana { get => _banana; }
 
     private void Start()
@@ -27,8 +30,8 @@ public class GameManager : Singleton<GameManager>
 
     public void StartGame()
     {
-        UIManager.Instance.UpdateBanana();
-        UIManager.Instance.UpdateEncounter();
+        UIManager.Instance.UpdateBanana(_banana);
+        UIManager.Instance.UpdateEncounter(_interaction);
         UIManager.Instance.ShowTuto();
     }
 
@@ -43,13 +46,13 @@ public class GameManager : Singleton<GameManager>
         }
         else if (monkenemy is Bonolady _)
         {
-            if (_interaction < _interactionMax)
+            if (!HasEnoughInteractions)
             {
                 uiManager.ShowTuto();
             }
             else
             {
-                if (_banana > BananaGoal)
+                if (HasEnoughBananas)
                 {
                     uiManager.ShowWin(_banana);
                 }
@@ -66,7 +69,7 @@ public class GameManager : Singleton<GameManager>
     {
         _interaction++;
         uiManager.HideInteractionPanel();
-        UIManager.Instance.UpdateEncounter();
+        UIManager.Instance.UpdateEncounter(_interaction);
         UnFreeze();
     }
 
@@ -105,7 +108,7 @@ public class GameManager : Singleton<GameManager>
     public void AddBanana()
     {
         _banana += BananaDelta;
-        UIManager.Instance.UpdateBanana();
+        UIManager.Instance.UpdateBanana(_banana);
     }
 
     public void RemoveBanana(int delta)
@@ -115,7 +118,7 @@ public class GameManager : Singleton<GameManager>
         {
             _banana = 0;
         }
-        UIManager.Instance.UpdateBanana();
+        UIManager.Instance.UpdateBanana(_banana);
     }
 
     public void RestartGame()

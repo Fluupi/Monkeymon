@@ -15,6 +15,7 @@ public class TutoPanel : MonoBehaviour
     [SerializeField] private Sprite _mouseOff;
     [SerializeField] private float _mouseSwitchDelay;
     [SerializeField] private Image _bonolady;
+    [SerializeField] private GameObject _skipButton;
     private bool _mouseRunning;
 
     private int i = 0;
@@ -29,7 +30,10 @@ public class TutoPanel : MonoBehaviour
     public void OnEnable()
     {
         if (_currentTuto == _tutoIntro)
+        {
             _bonolady.gameObject.SetActive(false);
+            _skipButton.SetActive(false);
+        }
 
         i = 0;
         _currentTuto[i].SetActive(true);
@@ -83,6 +87,7 @@ public class TutoPanel : MonoBehaviour
     public void EndTuto()
     {
         _currentTuto = _tutoRepetition;
+        _skipButton.SetActive(true);
         UIManager.Instance.HideTutoPanel();
         _inputInteraction.action.started -= Action_started;
     }
