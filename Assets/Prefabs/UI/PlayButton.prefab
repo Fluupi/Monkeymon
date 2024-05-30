@@ -326,7 +326,7 @@ MonoBehaviour:
         m_TrackedProperties:
           items:
           - rid: 2063883467759550563
-        m_UpdateType: 0
+        m_UpdateType: 1
     - rid: 2063883467759550563
       type: {class: LocalizedAssetProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
       data:
